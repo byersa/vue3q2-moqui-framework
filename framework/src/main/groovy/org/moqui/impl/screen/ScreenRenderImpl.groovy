@@ -2400,7 +2400,7 @@ class ScreenRenderImpl implements ScreenRender {
             }
 
             menuDataList.add([name:pathItem, title:menuTitle, subscreens:subscreensList, path:curScreenPath,
-                    pathWithParams:curPathWithParams, hasTabMenu:curScreen.hasTabMenu(), renderModes:curScreen.renderModes, image:image, imageType:imageType])
+                              pathWithParams:curPathWithParams, hasTabMenu:curScreen.hasTabMenu(), renderModes:curScreen.renderModes, image:image, imageType:imageType])
             // not needed: screenStatic:curScreen.isServerStatic(renderMode)
         }
 
@@ -2437,7 +2437,7 @@ class ScreenRenderImpl implements ScreenRender {
                 for (Map<String, Object> userFlf in userFlfList) {
                     EntityValue formListFind = (EntityValue) userFlf.formListFind
                     Map itemMap = [name:formListFind.formListFindId, title:formListFind.description, image:lastImage, imageType:lastImageType,
-                            path:lastPath, pathWithParams:(lastPath + "?formListFindId=" + formListFind.formListFindId)]
+                                   path:lastPath, pathWithParams:(lastPath + "?formListFindId=" + formListFind.formListFindId)]
                     if (formListFindId != null && formListFindId.equals(formListFind.formListFindId)) itemMap.active = true
                     savedFindsList.add(itemMap)
                 }
@@ -2454,13 +2454,12 @@ class ScreenRenderImpl implements ScreenRender {
             lastPathWithParams = lastPathWithParams.replaceFirst(screenMountedPath, qvt2Path)
         }
         Map lastMap = [name:lastPathItem, title:lastTitle, path:lastPath, pathWithParams:lastPathWithParams,
-                image:lastImage, imageType:lastImageType, extraPathList:extraPathList, screenDocList:screenDocList,
-                renderModes:fullUrlInfo.targetScreen.renderModes, savedFinds:savedFindsList]
+                       image:lastImage, imageType:lastImageType, extraPathList:extraPathList, screenDocList:screenDocList,
+                       renderModes:fullUrlInfo.targetScreen.renderModes, savedFinds:savedFindsList]
         menuDataList.add(lastMap)
         // not needed: screenStatic:fullUrlInfo.targetScreen.isServerStatic(renderMode)
 
         // for (Map info in menuDataList) logger.warn("menu data item: ${info}")
-        return menuDataList
         return menuDataList
     }
 }
