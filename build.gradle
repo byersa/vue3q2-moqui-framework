@@ -1320,3 +1320,35 @@ task cleanPullLoad { dependsOn cleanAll, gitPullAll, load }
 task cleanPullTest { dependsOn cleanAll, gitPullAll, load, allTestTasks }
 task cleanPullCompTest { dependsOn cleanAll, gitPullAll, load, getComponentTestTasks() }
 task compTest { dependsOn getComponentTestTasks() }
+
+// Huddle Automation: Added PostgreSQL Driver
+task installDrivers { doLast {
+    def postgresVersion = '42.7.2'
+    def jarName = "postgresql-${postgresVersion}.jar"
+    def url = "https://repo1.maven.org/maven2/org/postgresql/postgresql/${postgresVersion}/${jarName}"
+    def targetDir = file('runtime/lib')
+    def targetFile = file("runtime/lib/${jarName}")
+
+    if (!targetDir.exists()) targetDir.mkdirs()
+
+    if (!targetFile.exists()) {
+        logger.lifecycle("Downloading PostgreSQL Driver from ${url}")
+        ant.get(src: url, dest: targetFile)
+    } else {
+        logger.lifecycle("PostgreSQL Driver already exists at ${targetFile}")
+    }
+} }
+
+// Force Mountain Time for Postgres compatibility
+System.setProperty('user.timezone', 'America/Denver')
+
+// --- Force Mountain Time for all Moqui Processes (Load/Run/Test) ---
+tasks.withType(JavaExec).configureEach {
+    systemProperty 'user.timezone', 'America/Denver'
+    systemProperty 'default_time_zone', 'America/Denver'
+    systemProperty 'database_time_zone', 'America/Denver'
+
+    // Required for Bitronix/JDBC Proxying on modern JVMs
+    jvmArgs("--add-opens", "java.base/java.lang=ALL-UNNAMED")
+    jvmArgs("--add-opens", "java.base/java.util=ALL-UNNAMED")
+}
