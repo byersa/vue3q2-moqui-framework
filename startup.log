@@ -1,0 +1,523 @@
+nohup: ignoring input
+Using temporary directory: /home/byersa/IdeaProjects/huddle-ai-project/execwartmp
+Found temporary directory execwartmp, deleting
+Determined runtime from Java system property: runtime
+Canonicalized runtimePath: /home/byersa/IdeaProjects/huddle-ai-project/runtime
+Determined conf from Java system property: conf/MoquiDevConf.xml
+Running Jetty server on port 8080 max threads 100 with args [{}]
+Creating Jetty FileSessionDataStore with directory /home/byersa/IdeaProjects/huddle-ai-project/runtime/sessions
+Jetty min threads 8, max threads 100
+[32m18:09:52.848  INFO         main                   o.eclipse.j.s.Server[m jetty-12.1.5; built: 2025-12-03T22:18:24.732Z; git: 4905d09d7b6801e792d7b73946cf7b66e4be25d6; jvm 21.0.9+10-LTS
+[32m18:09:52.865  INFO         main  o.eclipse.j.s.DefaultSessionIdManager[m Session workerName=node0
+[32m18:09:53.725  INFO         main ipse.j.e.w.StandardDescriptorProcessor[m NO JSP Support for /, did not find org.eclipse.jetty.ee11.jsp.JettyJspServlet
+[32m18:09:54.201  INFO         main         o.eclipse.j.s.h.ContextHandler[m Started oeje11w.WebAppContext@2fd1731c{Moqui Root Webapp,/,b=file:///home/byersa/IdeaProjects/huddle-ai-project/execwartmp/ROOT/webapp/,a=AVAILABLE,h=oeje11s.SessionHandler@50fb33a{STARTED}}{file:/home/byersa/IdeaProjects/huddle-ai-project/moqui.war}
+[32m18:09:54.288  INFO         main       o.moqui.i.w.MoquiContextListener[m Loading Webapp 'webroot' (Moqui Root Webapp) on ROOT, located at: /home/byersa/IdeaProjects/huddle-ai-project/execwartmp/ROOT/webapp/
+[32m18:09:54.369  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initializing Moqui Framework version 4.0.0
+ - runtime directory: /home/byersa/IdeaProjects/huddle-ai-project/runtime
+ - runtime config:    /home/byersa/IdeaProjects/huddle-ai-project/runtime/conf/MoquiDevConf.xml
+[32m18:09:54.369  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Running on Java 21.0.9 VM 21.0.9+10-LTS Runtime 21.0.9+10-LTS
+[32m18:09:54.652  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component tools              at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/tools
+[32m18:09:54.662  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component webroot            at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/webroot
+[32m18:09:54.664  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component HiveMind           at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/HiveMind
+[32m18:09:54.665  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component MarbleERP          at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/MarbleERP
+[32m18:09:54.666  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component PopCommerce        at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopCommerce
+[32m18:09:54.667  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component PopRestStore       at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopRestStore
+[32m18:09:54.667  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component SimpleScreens      at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/SimpleScreens
+[32m18:09:54.667  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component aitree             at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/aitree
+[32m18:09:54.677  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component example            at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example
+[32m18:09:54.678  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component huddle             at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle
+[32m18:09:54.679  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component mantle-udm         at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm
+[32m18:09:54.680  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component mantle-usl         at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl
+[32m18:09:54.681  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component moqui-ai           at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-ai
+[32m18:09:54.681  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component moqui-demo         at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-demo
+[32m18:09:54.682  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component moqui-fop          at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-fop
+[32m18:09:54.683  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component moqui-mcp-2        at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-mcp
+[32m18:09:54.683  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component moqui-poi          at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-poi
+[32m18:09:54.685  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Components after depends-on sort: [tools, webroot, moqui-fop, mantle-udm, mantle-usl, SimpleScreens, HiveMind, MarbleERP, PopCommerce, PopRestStore, aitree, example, huddle, moqui-ai, moqui-demo, moqui-mcp-2, moqui-poi]
+[32m18:09:54.696  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component tools
+[32m18:09:54.702  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component moqui-fop
+[32m18:09:54.707  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component mantle-udm
+[32m18:09:54.708  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component SimpleScreens
+[32m18:09:54.708  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component HiveMind
+[32m18:09:54.709  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component MarbleERP
+[32m18:09:54.710  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component PopCommerce
+[32m18:09:54.710  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component PopRestStore
+[32m18:09:54.711  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component aitree
+[32m18:09:54.711  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component example
+[32m18:09:54.712  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component huddle
+[32m18:09:54.713  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component moqui-ai
+[32m18:09:54.714  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component moqui-demo
+[32m18:09:54.714  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component moqui-mcp-2
+[32m18:09:54.715  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component moqui-poi
+[32m18:09:54.716  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging runtime configuration at /home/byersa/IdeaProjects/huddle-ai-project/runtime/conf/MoquiDevConf.xml
+[32m18:09:54.726  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property instance_purpose from default with value [dev]
+[32m18:09:54.726  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property default_locale from default with value [en_US]
+[32m18:09:54.726  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Found property default_time_zone with value [America/Denver], not setting from env var or default
+[32m18:09:54.727  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property database_time_zone from env var with value [America/Denver]
+[32m18:09:54.727  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property webapp_https_enabled from default with value [false]
+[32m18:09:54.727  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property webapp_allow_origins from default with value [*]
+[32m18:09:54.727  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property webapp_handle_cors from default with value [true]
+[32m18:09:54.727  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property webapp_status_ips from default with value [127.0.0.1]
+[32m18:09:54.727  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property webapp_require_session_token from default with value [true]
+[32m18:09:54.727  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property webapp_upload_executable_allow from default with value [false]
+[32m18:09:54.727  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_ds_db_conf from default with value [h2]
+[32m18:09:54.727  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Found property entity_ds_host with value [localhost], not setting from env var or default
+[32m18:09:54.727  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Found property entity_ds_port with value [5434], not setting from env var or default
+[32m18:09:54.727  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Found property entity_ds_database with value [nursinghome], not setting from env var or default
+[32m18:09:54.738  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_ds_url from default with value [jdbc:h2:/home/byersa/IdeaProjects/huddle-ai-project/runtime/db/h2/nursinghome;lock_timeout=30000]
+[32m18:09:54.738  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Found property entity_ds_user with value [ofbiz], not setting from env var or default
+[32m18:09:54.738  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Found secret property entity_ds_password, not setting from env var or default
+[32m18:09:54.738  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting secret property entity_ds_crypt_pass from default
+[32m18:09:54.739  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting secret property entity_ds_crypt_pass_old from default
+[32m18:09:54.739  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_add_missing_runtime from default with value [false]
+[32m18:09:54.739  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_add_missing_startup from default with value [true]
+[32m18:09:54.739  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_lock_track from default with value [true]
+[32m18:09:54.739  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_statement_timeout from default with value [false]
+[32m18:09:54.739  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_empty_db_load from default with value [all]
+[32m18:09:54.739  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_on_start_load_types from default with value [none]
+[32m18:09:54.739  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_ds_c1_disabled from default with value [true]
+[32m18:09:54.740  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_ds_c1_db_conf from default with value [mysql]
+[32m18:09:54.740  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property scheduled_job_check_time from default with value [60]
+[32m18:09:54.740  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property elasticsearch_url from default with value [http://127.0.0.1:9200]
+[32m18:09:54.740  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property kibana_host from default with value [127.0.0.1]
+[32m18:09:54.740  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property kibana_port from default with value [5601]
+[32m18:09:54.743  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Found default_time_zone America/Denver: sun.util.calendar.ZoneInfo[id="America/Denver",offset=-25200000,dstSavings=3600000,useDaylight=true,transitions=157,lastRule=java.util.SimpleTimeZone[id=America/Denver,offset=-25200000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]]
+[32m18:09:54.743  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Default locale en_US, time zone sun.util.calendar.ZoneInfo[id="America/Denver",offset=-25200000,dstSavings=3600000,useDaylight=true,transitions=157,lastRule=java.util.SimpleTimeZone[id=America/Denver,offset=-25200000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]]
+[32m18:09:54.783  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting worker pool size to 48 based on available processors * 3
+[32m18:09:54.784  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initializing worker ThreadPoolExecutor: queue limit 65535, pool-core 16, pool-max 48, pool-alive 60s
+[32m18:09:54.788  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initializing MClassLoader context org.eclipse.jetty.ee.webapp.WebAppClassLoader cur class org.eclipse.jetty.ee.webapp.WebAppClassLoader system null
+Starting MClassLoader with parent org.eclipse.jetty.ee.webapp.WebAppClassLoader
+[32m18:09:54.794  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initialized MClassLoader with parent org.eclipse.jetty.ee.webapp.WebAppClassLoader
+[32m18:09:54.794  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added JAR from runtime/lib: postgresql-42.7.5.jar
+Ignoring duplicate class org.moqui.entity.EntityList in jar /home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-fop/lib/moqui-framework-4.0.0.jar
+Ignoring duplicate class org.moqui.entity.EntityValue in jar /home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-fop/lib/moqui-framework-4.0.0.jar
+Ignoring duplicate class org.moqui.util.MNode in jar /home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-fop/lib/moqui-framework-4.0.0.jar
+[32m18:09:54.814  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added JARs from component moqui-fop: [antlr4-runtime-4.5.3.jar, avalon-framework-api-4.3.1.jar, avalon-framework-impl-4.2.0.jar, avalon-framework-impl-4.3.1.jar, barcode4j-2.1.jar, barcode4j-fop-ext-2.1.jar, batik-anim-1.17.jar, batik-awt-util-1.17.jar, batik-bridge-1.17.jar, batik-codec-1.17.jar, batik-constants-1.17.jar, batik-css-1.17.jar, batik-dom-1.17.jar, batik-ext-1.17.jar, batik-extension-1.17.jar, batik-gvt-1.17.jar, batik-i18n-1.17.jar, batik-parser-1.17.jar, batik-script-1.17.jar, batik-shared-resources-1.17.jar, batik-svg-dom-1.17.jar, batik-svggen-1.17.jar, batik-transcoder-1.17.jar, batik-util-1.17.jar, batik-xml-1.17.jar, commons-cli-1.0.jar, commons-lang-1.0.jar, cssbox-4.17.jar, cssbox-pdf-1.0-SNAPSHOT.jar, fontbox-3.0.0.jar, fop-core-2.9.jar, fop-events-2.9.jar, fop-util-2.9.jar, jstyleparser-3.5.jar, junit-3.7.jar, moqui-fop-1.1.3.jar, moqui-framework-4.0.0.jar, nekohtml-1.9.22.jar, pdfbox-3.0.0.jar, pdfbox-io-3.0.0.jar, qdox-1.12.jar, unbescape-1.1.6.RELEASE.jar, xercesImpl-2.12.2.jar, xml-apis-1.4.01.jar, xml-apis-ext-1.3.04.jar, xmlgraphics-commons-2.9.jar]
+[32m18:09:54.814  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added JARs from component example: [example-3.0.0.jar]
+[32m18:09:54.814  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added JARs from component moqui-ai: [moqui-ai-1.0.0.jar]
+[32m18:09:54.814  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added JARs from component moqui-mcp-2: [moqui-mcp-2-1.0.0.jar]
+Ignoring duplicate class org.moqui.entity.EntityList in jar /home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-poi/lib/moqui-framework-4.0.0.jar
+Ignoring duplicate class org.moqui.entity.EntityValue in jar /home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-poi/lib/moqui-framework-4.0.0.jar
+Ignoring duplicate class org.moqui.util.MNode in jar /home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-poi/lib/moqui-framework-4.0.0.jar
+[32m18:09:54.821  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added JARs from component moqui-poi: [SparseBitSet-1.2.jar, commons-compress-1.21.jar, commons-math3-3.6.1.jar, curvesapi-1.07.jar, moqui-framework-4.0.0.jar, moqui-poi-1.0.1.jar, poi-5.2.3.jar, poi-ooxml-5.2.3.jar, poi-ooxml-lite-5.2.3.jar, xmlbeans-5.1.1.jar]
+[32m18:09:54.822  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initialized ClassLoaders in 35ms
+[32m18:09:54.828  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Not loading disabled ToolFactory with class: org.moqui.impl.tools.JackrabbitRunToolFactory
+[32m18:09:54.828  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Not loading disabled ToolFactory with class: org.moqui.impl.tools.SubEthaSmtpToolFactory
+[32m18:09:54.830  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Loading ToolFactory with class: org.moqui.impl.tools.MCacheToolFactory
+[32m18:09:54.832  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Loading ToolFactory with class: org.moqui.impl.tools.H2ServerToolFactory
+[32m18:09:54.835  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Loading ToolFactory with class: org.moqui.fop.FopToolFactory
+[32m18:09:54.843  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Cache Facade initialized
+[32m18:09:54.924  INFO         main         o.moqui.i.c.ResourceFacadeImpl[m Using xsl-fo-handler-factory FOP (org.moqui.fop.FopToolFactory)
+[32m18:09:54.924  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Resource Facade initialized
+[33m18:09:54.949  WARN         main                     b.tm.Configuration[m Cannot get the unique server ID for this JVM ('bitronix.tm.serverId'). Make sure it is configured and you use only US-ASCII characters. Will use IP address instead (unsafe for production usage!).
+[33m18:09:54.953  WARN         main                     b.tm.j.DiskJournal[m active log file is unclean, did you call BitronixTransactionManager.shutdown() at the end of the last run?
+[32m18:09:55.034  INFO         main      o.moqui.i.c.TransactionFacadeImpl[m Internal transaction manager initialized: UserTransaction class bitronix.tm.BitronixTransactionManager, TransactionManager class bitronix.tm.BitronixTransactionManager
+[32m18:09:55.034  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Transaction Facade initialized
+[32m18:09:55.075  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Database time zone is sun.util.calendar.ZoneInfo[id="America/Denver",offset=-25200000,dstSavings=3600000,useDaylight=true,transitions=157,lastRule=java.util.SimpleTimeZone[id=America/Denver,offset=-25200000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]]
+[32m18:09:55.170  INFO         main .moqui.i.c.TransactionInternalBitronix[m Initializing DataSource transactional_DS (postgres) with properties: [databaseName:nursinghome, serverName:localhost, user:ofbiz, portNumber:5434]
+[32m18:09:55.538  INFO         main .moqui.i.c.TransactionInternalBitronix[m Init DataSource transactional_DS (postgres) isolation READ_COMMITTED (2), max pool 50
+[32m18:09:55.545  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Skipping disabled datasource transactional#clone1
+[32m18:09:55.555  INFO         main                o.moqui.i.e.EntityCache[m Entity Cache initialized, distributed cache invalidate enabled: false
+[32m18:09:55.561  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Entity Facade initialized
+[32m18:09:55.648  INFO         main                    o.moqui.i.s.RestApi[m Loaded REST API from moqui.rest.xml (83 paths, 89 methods)
+[32m18:09:55.662  INFO         main                    o.moqui.i.s.RestApi[m Loaded REST API from mantle.rest.xml (392 paths, 416 methods)
+[32m18:09:55.666  INFO         main                    o.moqui.i.s.RestApi[m Loaded REST API from pop.rest.xml (42 paths, 41 methods)
+[32m18:09:55.668  INFO         main                    o.moqui.i.s.RestApi[m Loaded REST API from example.rest.xml (12 paths, 28 methods)
+[32m18:09:55.668  INFO         main                    o.moqui.i.s.RestApi[m Loaded REST API from huddle.rest.xml (4 paths, 5 methods)
+[32m18:09:55.669  INFO         main                    o.moqui.i.s.RestApi[m Loaded REST API files, 5 roots, in 88ms
+[32m18:09:55.670  INFO         main          o.moqui.i.s.ServiceFacadeImpl[m Setting Service Job worker pool size to 32 based on available processors * 2
+[32m18:09:55.670  INFO         main          o.moqui.i.s.ServiceFacadeImpl[m Initializing Service Job ThreadPoolExecutor: queue limit 0, pool-core 2, pool-max 32, pool-alive 120s
+[32m18:09:55.671  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Service Facade initialized
+[32m18:09:55.682  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Screen Facade initialized
+[32m18:09:55.682  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Loading entity definitions
+[32m18:09:55.767  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Found entities in 48 files in 85ms
+[32m18:09:55.960  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Found 1 view-entity definitions in database (DbViewEntity records)
+[32m18:09:56.363  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Loaded 896 entity definitions in 681ms
+[32m18:09:56.377  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Checking tables for entities in groups [transactional]
+[33m18:09:56.453  WARN         main               o.moqui.i.e.EntityDbMeta[m Found unknown columns on table HUDDLE_ARTIFACT for entity huddle.artifact.HuddleArtifact: [raw_content, vector_embedding]
+[33m18:09:56.456  WARN         main               o.moqui.i.e.EntityDbMeta[m Found unknown columns on table ORGANIZATION for entity mantle.party.Organization: [short_org_name]
+[33m18:09:56.461  WARN         main               o.moqui.i.e.EntityDbMeta[m Found unknown tables in database for group transactional: [characteristic, meeting_instance_topic, work_effort_attribute, party_agenda_topic, targeted_relationship, work_effort_characteristic_cache, meeting_template, characteristic_type, meeting_template_facet_value_lookup, work_effort_content_history, s_h_content, map_lookup, party_meeting_template, meeting_instance, meeting_relationship, pinned, meeting_repository]
+[32m18:09:56.462  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Checked tables for all entities in 0.098 seconds
+[32m18:09:56.471  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Loaded 25 Entity ECA rules from 5 .eecas.xml files, 0 rules have no id, 25 EECA rules active
+[32m18:09:56.510  INFO         main          o.moqui.i.s.ServiceFacadeImpl[m Loaded 60 Service ECA rules from 10 .secas.xml files, 0 rules have no id, 60 SECA rules active
+[32m18:09:56.514  INFO         main          o.moqui.i.s.ServiceFacadeImpl[m Loaded [1] Email ECA rules from [file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/service/Example.emecas.xml]
+[32m18:09:56.515  INFO         main          o.moqui.i.s.ServiceFacadeImpl[m No distributed-factory specified, distributed async service calls will be run local only
+[32m18:09:56.522  INFO         main          o.moqui.i.s.ServiceFacadeImpl[m Starting Scheduled Service Job Runner, checking for jobs every 60 seconds after a 120 second initial delay
+[32m18:09:56.531  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initializing ToolFactory: MCache
+[32m18:09:56.531  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initializing ToolFactory: H2Server
+[32m18:09:56.532  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initializing ToolFactory: FOP
+[32m18:09:56.820  INFO         main          o.moqui.i.c.ElasticFacadeImpl[m Initializing ElasticFacade Client for cluster default at http://127.0.0.1:9200
+[33m18:09:56.882  WARN         main               o.eclipse.j.u.s.S.config[m Trusting all certificates configured for oejus.SslContextFactory$Client@7e2e0b8a[provider=null,keyStore=null,trustStore=null]
+[33m18:09:56.882  WARN         main               o.eclipse.j.u.s.S.config[m No Client EndPointIdentificationAlgorithm configured for oejus.SslContextFactory$Client@7e2e0b8a[provider=null,keyStore=null,trustStore=null]
+[1;31m18:09:56.928 ERROR         main          o.moqui.i.c.ElasticFacadeImpl[m Error initializing ElasticClient for cluster default: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused
+[33m18:09:56.929  WARN         main          o.moqui.i.c.ElasticFacadeImpl[m No Elastic Client found with name 'logger' or 'default', not initializing ElasticSearchLogger
+[32m18:09:56.929  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Elastic Facade initialized
+[32m18:09:56.929  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Execution Context Factory initialized in 2.61 seconds
+[32m18:09:56.940  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Found 1890 Enumeration records, NOT loading empty-db-load data types (all)
+[32m18:09:56.996  INFO         main ExecutionContextFactoryImpl$WebappInfo[m Initializing webapp webroot http://null:8080 https://null:null https enabled? false
+[32m18:09:57.003  INFO         main       o.moqui.i.w.MoquiContextListener[m Added webapp filter ElasticRequestLogFilter on: [/*], [REQUEST]
+[32m18:09:57.006  INFO         main       o.moqui.i.w.MoquiContextListener[m Added webapp filter ElasticAuthFilter on: [/elastic/*], []
+[32m18:09:57.006  INFO         main       o.moqui.i.w.MoquiContextListener[m Added webapp filter KibanaAuthFilter on: [/kibana/*], []
+[32m18:09:57.006  INFO         main       o.moqui.i.w.MoquiContextListener[m Added webapp filter McpAuthFilter on: [/mcp/*], []
+[32m18:09:57.010  INFO         main       o.moqui.i.w.MoquiContextListener[m Added webapp listener org.moqui.impl.webapp.MoquiSessionListener
+[32m18:09:57.022  INFO         main       o.moqui.i.w.MoquiContextListener[m Added servlet MoquiServlet on: [/*]
+[32m18:09:57.024  INFO         main       o.moqui.i.w.MoquiContextListener[m Added servlet MoquiFopServlet on: [/fop/*]
+[32m18:09:57.036  INFO         main       o.moqui.i.w.MoquiContextListener[m Added servlet ElasticSearchProxy on: [/elastic/*]
+[32m18:09:57.043  INFO         main       o.moqui.i.w.MoquiContextListener[m Added servlet KibanaProxy on: [/kibana/*]
+[32m18:09:57.045  INFO         main       o.moqui.i.w.MoquiContextListener[m Added servlet HtmlRenderServlet on: [/htmlr/*]
+[32m18:09:57.055  INFO         main       o.moqui.i.w.MoquiContextListener[m Added servlet EnhancedMcpServlet on: [/mcp/*]
+[32m18:09:57.058  INFO         main       o.moqui.i.w.MoquiContextListener[m Added servlet H2Console on: [/h2/*]
+[32m18:09:57.058  INFO         main       o.moqui.i.w.MoquiContextListener[m Found WebSocket ServerContainer org.eclipse.jetty.ee11.websocket.jakarta.server.JakartaWebSocketServerContainer
+[32m18:09:57.070  INFO         main       o.moqui.i.w.MoquiContextListener[m Added WebSocket endpoint /notws for class org.moqui.impl.webapp.NotificationEndpoint
+[32m18:09:57.070  INFO         main       o.moqui.i.w.MoquiContextListener[m Added WebSocket endpoint /groovysh for class org.moqui.impl.webapp.GroovyShellEndpoint
+[32m18:09:57.070  INFO         main       o.moqui.i.w.MoquiContextListener[m Moqui Framework initialized in 2.869 seconds
+[1;31m18:09:57.072 ERROR         main    o.moqui.i.w.ElasticRequestLogFilter[m In ElasticRequestLogFilter init could not find ElasticClient with name logger or default, not starting
+[32m18:09:57.130  INFO         main            o.moqui.i.w.MoquiFopServlet[m MoquiFopServlet initialized for webapp webroot
+[32m18:09:57.130  INFO         main               o.moqui.i.w.MoquiServlet[m MoquiServlet initialized for webapp webroot
+[32m18:09:57.159  INFO         main o.moqui.m.a.MoquiNotificationMcpBridge[m MoquiNotificationMcpBridge initialized (transport not yet set)
+[32m18:09:57.171  INFO         main o.moqui.m.a.MoquiNotificationMcpBridge[m MoquiNotificationMcpBridge transport configured: SseTransport
+[32m18:09:57.172  INFO         main o.moqui.m.a.MoquiNotificationMcpBridge[m MoquiNotificationMcpBridge initialized (transport not yet set)
+[32m18:09:57.172  INFO         main           o.moqui.m.EnhancedMcpServlet[m Registered MoquiNotificationMcpBridge with ECF
+[32m18:09:57.172  INFO         main           o.moqui.m.EnhancedMcpServlet[m EnhancedMcpServlet initialized with adapter architecture for webapp webroot
+[32m18:09:57.172  INFO         main           o.moqui.m.EnhancedMcpServlet[m SSE endpoint: /sse, Message endpoint: /message
+[32m18:09:57.172  INFO         main           o.moqui.m.EnhancedMcpServlet[m Keep-alive interval: 30s, Max connections: 100
+[32m18:09:57.172  INFO         main  o.eclipse.j.e.s.ServletContextHandler[m Started oeje11w.WebAppContext@2fd1731c{Moqui Root Webapp,/,b=file:///home/byersa/IdeaProjects/huddle-ai-project/execwartmp/ROOT/webapp/,a=AVAILABLE,h=oeje11s.SessionHandler@50fb33a{STARTED}}{file:/home/byersa/IdeaProjects/huddle-ai-project/moqui.war}
+[32m18:09:57.179  INFO         main        o.eclipse.j.s.AbstractConnector[m Started oejs.ServerConnector@257c21c1{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[32m18:09:57.179  INFO         main                   o.eclipse.j.s.Server[m Started oejs.Server@5ae81e1{STARTING}[12.1.5,sto=30000] @4338ms
+[33m18:10:14.428  WARN 414845278-40               o.moqui.i.u.SimpleSigner[m Could not initialize signing key qz-private-key.pem: org.moqui.BaseException: Could not find signing key resource qz-private-key.pem on classpath
+[32m18:10:14.686  INFO 414845278-40           o.moqui.i.e.EntityFacadeImpl[m Created 1537 automatic reverse relationships
+[32m18:10:14.774  INFO 414845278-40             o.moqui.i.e.EntityDataFeed[m Built entity.data.feed.info cache in 149ms, entries for 62 entities
+[32m18:10:15.449  INFO 414845278-40           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [] in 435ms (text/html;charset=utf-8) session node0956gpnoirp39n2dn3qiuzt350
+[32m18:10:41.028  INFO 414845278-38           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [] in 121ms (text/html;charset=utf-8) session node0n8bykhobsbr11urd4ljqehbpu1
+[32m18:11:19.800  INFO 414845278-51           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [] in 195ms (text/html;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[33m18:11:19.964  WARN 414845278-55               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [com.chrome.devtools.json] under screen [component://webroot/screen/webroot.xml] while finding url for path [.well-known, appspecific, com.chrome.devtools.json] under from screen [component://webroot/screen/webroot.xml]
+[33m18:11:20.330  WARN 414845278-38               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [730e4561155a7aa269cd6e6b2ef836e70a139b6ebd498290fbfeb2455b7660b1.map] under screen [component://webroot/screen/webroot.xml] while finding url for path [sm, 730e4561155a7aa269cd6e6b2ef836e70a139b6ebd498290fbfeb2455b7660b1.map] under from screen [component://webroot/screen/webroot.xml]
+[32m18:11:24.078  INFO 414845278-53              o.moqui.i.c.WebFacadeImpl[m Sent text (application/javascript) response of length [3566] with [utf-8] encoding in [4.186] seconds for GET request to /routes.js
+[32m18:11:24.188  INFO 414845278-51              o.moqui.i.c.WebFacadeImpl[m Streamed 1150 bytes from location component://webroot/screen/webroot/favicon.ico
+[32m18:11:24.229  INFO 414845278-37           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [renderMode:qjson] in 96ms (application/json;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[32m18:11:24.242  INFO 414845278-40           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [renderMode:qjson] in 12ms (application/json;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[32m18:13:02.421  INFO 414845278-39           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [] in 94ms (text/html;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[32m18:14:38.209  INFO 414845278-41           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [renderMode:qjson] in 18ms (application/json;charset=utf-8) session node05h1u3nup11n21rpm5uxr00l9w2
+[32m18:14:46.203  INFO 414845278-56           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [renderMode:qjson] in 19ms (application/json;charset=utf-8) session node01csb3fd0docakdidw4qw8odrr3
+[32m18:14:53.126  INFO 414845278-38           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [renderMode:qjson] in 20ms (application/json;charset=utf-8) session node0t8bgihr2gftn18w5qbqs5prya4
+[32m18:15:00.686  INFO 414845278-59           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [renderMode:qjson] in 15ms (application/json;charset=utf-8) session node01uwsex8wi927s1cqk7e8b10m055
+[32m18:15:56.546  INFO iScheduled-1         o.moqui.i.s.ScheduledJobRunner[m Running job autoApprove_OrdersDelayed run 111118 (last run 2026-02-21 18:00:23.078, schedule 2026-02-21T18:15-07:00[America/Denver])
+[32m18:15:56.560  INFO iScheduled-1           o.moqui.i.e.EntityFacadeImpl[m Found entities in 48 files in 9ms
+[32m18:15:56.561  INFO iScheduled-1           o.moqui.i.e.EntityFacadeImpl[m Found 1 view-entity definitions in database (DbViewEntity records)
+[32m18:15:56.575  INFO iScheduled-1         o.moqui.i.s.ScheduledJobRunner[m Running job render_ScheduledScreens_frequent run 111119 (last run 2026-02-21 18:00:23.078, schedule 2026-02-21T18:15-07:00[America/Denver])
+[32m18:15:56.577  INFO iScheduled-1         o.moqui.i.s.ScheduledJobRunner[m Ran 2 Service Jobs starting 2026-02-21T18:15:56.531057177-07:00[America/Denver] - active: 7, paused: 12; on this server using 2 of 32 job slots
+[32m18:15:58.075  INFO 414845278-54           o.moqui.i.s.ScreenRenderImpl[m aitree/menuDataQvt2/Home/Home [] in 77ms (text/html;charset=utf-8) session node0syhc1rnt6j1kag2y0aufdhna6
+[32m18:16:04.347  INFO 414845278-60           o.moqui.i.s.ScreenRenderImpl[m aitree/menuDataQvt2/Home/Home [] in 66ms (text/html;charset=utf-8) session node0b5wewnj98h4zr8rks28kws8b7
+[32m18:16:44.613  INFO 414845278-40           o.moqui.i.s.ScreenFacadeImpl[m Reloading modified screen component://aitree/screen/aitree.xml
+[32m18:17:28.753  INFO 414845278-41           o.moqui.i.s.ScreenFacadeImpl[m Reloading modified screen component://aitree/screen/aitree.xml
+[32m18:17:39.925  INFO 414845278-39           o.moqui.i.s.ScreenRenderImpl[m Screen at location component://huddle/screen/huddle/Home.xml, which is part of [qapps2, huddle, menuDataQvt2, Home] under screen component://webroot/screen/webroot.xml requires authentication but no user is currently logged in.
+[32m18:18:02.718  INFO 414845278-38           o.moqui.i.s.ScreenFacadeImpl[m Reloading modified screen component://aitree/screen/aitree.xml
+[32m18:19:42.146  INFO 414845278-59           o.moqui.i.s.ScreenFacadeImpl[m Reloading modified screen component://aitree/screen/aitree.xml
+[32m18:19:42.325  INFO 414845278-54           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [] in 89ms (text/html;charset=utf-8) session node0cfqhlygbga3t1askxabi3qvmv14
+[32m18:21:02.061  INFO 414845278-60           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [] in 85ms (text/html;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[33m18:21:02.150  WARN 414845278-37               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [com.chrome.devtools.json] under screen [component://webroot/screen/webroot.xml] while finding url for path [.well-known, appspecific, com.chrome.devtools.json] under from screen [component://webroot/screen/webroot.xml]
+[32m18:21:02.416  INFO 14845278-119              o.moqui.i.c.WebFacadeImpl[m Sent text (application/javascript) response of length [3566] with [utf-8] encoding in [0.322] seconds for GET request to /routes.js/aitree/Home
+[33m18:21:02.556  WARN 414845278-41               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [730e4561155a7aa269cd6e6b2ef836e70a139b6ebd498290fbfeb2455b7660b1.map] under screen [component://webroot/screen/webroot.xml] while finding url for path [sm, 730e4561155a7aa269cd6e6b2ef836e70a139b6ebd498290fbfeb2455b7660b1.map] under from screen [component://webroot/screen/webroot.xml]
+[33m18:21:02.591  WARN 414845278-59               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[32m18:21:02.613  INFO 414845278-38           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [renderMode:qjson] in 6ms (application/json;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[32m18:21:02.649  INFO 14845278-118              o.moqui.i.c.WebFacadeImpl[m Streamed 1150 bytes from location component://webroot/screen/webroot/favicon.ico
+[33m18:21:32.619  WARN 414845278-54               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[33m18:22:02.624  WARN 14845278-119               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[33m18:22:32.630  WARN 414845278-51               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[33m18:23:02.634  WARN 14845278-118               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[33m18:23:32.639  WARN 414845278-59               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[33m18:24:02.643  WARN 414845278-38               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[32m18:25:22.003  INFO 14845278-119           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [] in 74ms (text/html;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[32m18:30:56.559  INFO iScheduled-1         o.moqui.i.s.ScheduledJobRunner[m Running job autoApprove_OrdersDelayed run 111120 (last run 2026-02-21 18:15:56.531, schedule 2026-02-21T18:30-07:00[America/Denver])
+[32m18:30:56.568  INFO iScheduled-1           o.moqui.i.e.EntityFacadeImpl[m Found entities in 48 files in 7ms
+[32m18:30:56.570  INFO iScheduled-1           o.moqui.i.e.EntityFacadeImpl[m Found 1 view-entity definitions in database (DbViewEntity records)
+[32m18:30:56.583  INFO iScheduled-1         o.moqui.i.s.ScheduledJobRunner[m Running job render_ScheduledScreens_frequent run 111121 (last run 2026-02-21 18:15:56.531, schedule 2026-02-21T18:30-07:00[America/Denver])
+[32m18:30:56.585  INFO iScheduled-1         o.moqui.i.s.ScheduledJobRunner[m Ran 2 Service Jobs starting 2026-02-21T18:30:56.530993910-07:00[America/Denver] - active: 7, paused: 12; on this server using 2 of 32 job slots
+[33m18:30:57.096  WARN oquiWorker-4           o.moqui.i.c.LoggerFacadeImpl[m Not saving or sending email for ScheduledScreen PopcAccRecAging: noResultsAbort Y _formListRendered true _formListResultCount 0
+[32m18:31:29.563  INFO 414845278-54           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [] in 73ms (text/html;charset=utf-8) session node0w6ww2b1xunfu113fne0vcf7tg15
+[32m18:43:22.472  INFO 14845278-121           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [] in 72ms (text/html;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[33m18:43:22.538  WARN 14845278-128               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [com.chrome.devtools.json] under screen [component://webroot/screen/webroot.xml] while finding url for path [.well-known, appspecific, com.chrome.devtools.json] under from screen [component://webroot/screen/webroot.xml]
+[32m18:43:22.751  INFO 14845278-118              o.moqui.i.c.WebFacadeImpl[m Sent text (application/javascript) response of length [3566] with [utf-8] encoding in [0.234] seconds for GET request to /routes.js/aitree/Home
+[33m18:43:22.945  WARN 14845278-175               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [730e4561155a7aa269cd6e6b2ef836e70a139b6ebd498290fbfeb2455b7660b1.map] under screen [component://webroot/screen/webroot.xml] while finding url for path [sm, 730e4561155a7aa269cd6e6b2ef836e70a139b6ebd498290fbfeb2455b7660b1.map] under from screen [component://webroot/screen/webroot.xml]
+[32m18:43:22.969  INFO 14845278-128              o.moqui.i.c.WebFacadeImpl[m Streamed 1150 bytes from location component://webroot/screen/webroot/favicon.ico
+[32m18:45:18.139  INFO 414845278-39           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [] in 75ms (text/html;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[33m18:45:18.217  WARN 14845278-121               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [com.chrome.devtools.json] under screen [component://webroot/screen/webroot.xml] while finding url for path [.well-known, appspecific, com.chrome.devtools.json] under from screen [component://webroot/screen/webroot.xml]
+[32m18:45:18.440  INFO 414845278-37              o.moqui.i.c.WebFacadeImpl[m Sent text (application/javascript) response of length [3566] with [utf-8] encoding in [0.254] seconds for GET request to /routes.js/aitree/Home
+[33m18:45:18.607  WARN 14845278-172               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [730e4561155a7aa269cd6e6b2ef836e70a139b6ebd498290fbfeb2455b7660b1.map] under screen [component://webroot/screen/webroot.xml] while finding url for path [sm, 730e4561155a7aa269cd6e6b2ef836e70a139b6ebd498290fbfeb2455b7660b1.map] under from screen [component://webroot/screen/webroot.xml]
+[33m18:45:18.661  WARN 414845278-51               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[32m18:45:18.688  INFO 14845278-121           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [renderMode:qjson] in 12ms (application/json;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[32m18:45:18.750  INFO 14845278-170              o.moqui.i.c.WebFacadeImpl[m Streamed 1150 bytes from location component://webroot/screen/webroot/favicon.ico
+[33m18:45:40.117  WARN 14845278-172               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [Meetings] under screen [component://webroot/screen/webroot.xml] while finding url for path [Meetings] under from screen [component://webroot/screen/webroot.xml]
+[33m18:45:42.682  WARN 14845278-175               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [PeopleOrgs] under screen [component://webroot/screen/webroot.xml] while finding url for path [PeopleOrgs] under from screen [component://webroot/screen/webroot.xml]
+[33m18:45:44.455  WARN 414845278-51               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [MedicalRecords] under screen [component://webroot/screen/webroot.xml] while finding url for path [MedicalRecords] under from screen [component://webroot/screen/webroot.xml]
+[33m18:45:46.035  WARN 414845278-37               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [Home] under screen [component://webroot/screen/webroot.xml] while finding url for path [Home] under from screen [component://webroot/screen/webroot.xml]
+[33m18:45:48.728  WARN 414845278-41               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[32m18:45:56.536  INFO iScheduled-1         o.moqui.i.s.ScheduledJobRunner[m Running job autoApprove_OrdersDelayed run 111122 (last run 2026-02-21 18:30:56.53, schedule 2026-02-21T18:45-07:00[America/Denver])
+[32m18:45:56.544  INFO iScheduled-1           o.moqui.i.e.EntityFacadeImpl[m Found entities in 48 files in 5ms
+[32m18:45:56.545  INFO iScheduled-1           o.moqui.i.e.EntityFacadeImpl[m Found 1 view-entity definitions in database (DbViewEntity records)
+[32m18:45:56.555  INFO iScheduled-1         o.moqui.i.s.ScheduledJobRunner[m Running job render_ScheduledScreens_frequent run 111123 (last run 2026-02-21 18:30:56.53, schedule 2026-02-21T18:45-07:00[America/Denver])
+[32m18:45:56.556  INFO iScheduled-1         o.moqui.i.s.ScheduledJobRunner[m Ran 2 Service Jobs starting 2026-02-21T18:45:56.530986139-07:00[America/Denver] - active: 7, paused: 12; on this server using 2 of 32 job slots
+[33m18:46:18.732  WARN 414845278-39               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[33m18:46:48.737  WARN 414845278-54               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[33m18:47:18.741  WARN 14845278-174               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[33m18:47:48.746  WARN 14845278-121               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[33m18:48:18.750  WARN 14845278-128               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[33m18:51:41.711  WARN 14845278-117               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [Home] under screen [component://webroot/screen/webroot.xml] while finding url for path [Home] under from screen [component://webroot/screen/webroot.xml]
+[32m18:51:41.790  INFO 14845278-117           o.moqui.i.s.ScreenRenderImpl[m error/NotFound [] in 76ms (text/html;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[33m18:51:41.809  WARN 14845278-121               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [com.chrome.devtools.json] under screen [component://webroot/screen/webroot.xml] while finding url for path [.well-known, appspecific, com.chrome.devtools.json] under from screen [component://webroot/screen/webroot.xml]
+[33m18:51:41.945  WARN 14845278-171               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [bootstrap.min.css.map] under screen [component://webroot/screen/webroot.xml] while finding url for path [libs, twitter-bootstrap, css, bootstrap.min.css.map] under from screen [component://webroot/screen/webroot.xml]
+[32m18:51:41.976  INFO 14845278-172              o.moqui.i.c.WebFacadeImpl[m Streamed 1150 bytes from location component://webroot/screen/webroot/favicon.ico
+[33m18:51:48.609  WARN 14845278-117               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [Home] under screen [component://webroot/screen/webroot.xml] while finding url for path [Home] under from screen [component://webroot/screen/webroot.xml]
+[32m18:51:48.654  INFO 14845278-117           o.moqui.i.s.ScreenRenderImpl[m error/NotFound [] in 45ms (text/html;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[33m18:51:48.674  WARN 14845278-170               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [com.chrome.devtools.json] under screen [component://webroot/screen/webroot.xml] while finding url for path [.well-known, appspecific, com.chrome.devtools.json] under from screen [component://webroot/screen/webroot.xml]
+[33m18:51:48.752  WARN 14845278-117               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [bootstrap.min.css.map] under screen [component://webroot/screen/webroot.xml] while finding url for path [libs, twitter-bootstrap, css, bootstrap.min.css.map] under from screen [component://webroot/screen/webroot.xml]
+[32m18:51:48.763  INFO 414845278-37              o.moqui.i.c.WebFacadeImpl[m Streamed 1150 bytes from location component://webroot/screen/webroot/favicon.ico
+[32m18:52:18.538  INFO 414845278-41           o.moqui.i.s.ScreenFacadeImpl[m Reloading modified screen component://aitree/screen/aitree.xml
+[32m18:52:18.619  INFO 414845278-41           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [] in 86ms (text/html;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[33m18:52:18.635  WARN 14845278-121               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [com.chrome.devtools.json] under screen [component://webroot/screen/webroot.xml] while finding url for path [.well-known, appspecific, com.chrome.devtools.json] under from screen [component://webroot/screen/webroot.xml]
+[32m18:52:18.875  INFO 414845278-51              o.moqui.i.c.WebFacadeImpl[m Sent text (application/javascript) response of length [3900] with [utf-8] encoding in [0.19] seconds for GET request to /routes.js
+[33m18:52:19.071  WARN 14845278-171               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [730e4561155a7aa269cd6e6b2ef836e70a139b6ebd498290fbfeb2455b7660b1.map] under screen [component://webroot/screen/webroot.xml] while finding url for path [sm, 730e4561155a7aa269cd6e6b2ef836e70a139b6ebd498290fbfeb2455b7660b1.map] under from screen [component://webroot/screen/webroot.xml]
+[33m18:52:19.127  WARN 14845278-117               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[32m18:52:19.150  INFO 414845278-41           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [renderMode:qjson] in 9ms (application/json;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[32m18:52:24.125  INFO 14845278-170           o.moqui.i.s.ScreenRenderImpl[m aitree/MedicalRecords [renderMode:qjson] in 16ms (application/json;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[32m18:52:27.013  INFO 14845278-171           o.moqui.i.s.ScreenRenderImpl[m aitree/PeopleOrgs [renderMode:qjson] in 6ms (application/json;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[32m18:52:30.451  INFO 14845278-172           o.moqui.i.s.ScreenRenderImpl[m aitree/Meetings [renderMode:qjson] in 29ms (application/json;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[33m18:52:49.175  WARN 414845278-37               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[33m18:53:19.179  WARN 14845278-121               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[33m18:53:49.183  WARN 14845278-189               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[33m18:54:19.187  WARN 414845278-39               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[33m18:54:49.191  WARN 14845278-187               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[32m18:55:11.722  INFO 414845278-51           o.moqui.i.s.ScreenRenderImpl[m aitree/aitree/Meetings/Home [] in 69ms (text/html;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[33m18:55:11.804  WARN 14845278-174               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [com.chrome.devtools.json] under screen [component://webroot/screen/webroot.xml] while finding url for path [.well-known, appspecific, com.chrome.devtools.json] under from screen [component://webroot/screen/webroot.xml]
+[32m18:55:11.977  INFO 414845278-54              o.moqui.i.c.WebFacadeImpl[m Sent text (application/javascript) response of length [3900] with [utf-8] encoding in [0.203] seconds for GET request to /routes.js/aitree/aitree/Meetings
+[33m18:55:12.176  WARN 14845278-192               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [730e4561155a7aa269cd6e6b2ef836e70a139b6ebd498290fbfeb2455b7660b1.map] under screen [component://webroot/screen/webroot.xml] while finding url for path [sm, 730e4561155a7aa269cd6e6b2ef836e70a139b6ebd498290fbfeb2455b7660b1.map] under from screen [component://webroot/screen/webroot.xml]
+[33m18:55:12.227  WARN 14845278-189               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[32m18:55:12.251  INFO 14845278-185           o.moqui.i.s.ScreenRenderImpl[m aitree/Meetings [renderMode:qjson] in 9ms (application/json;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[32m18:55:12.296  INFO 14845278-171              o.moqui.i.c.WebFacadeImpl[m Streamed 1150 bytes from location component://webroot/screen/webroot/favicon.ico
+[32m18:55:16.887  INFO 14845278-189           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [renderMode:qjson] in 18ms (application/json;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[33m18:55:42.274  WARN 14845278-121               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[33m18:56:12.280  WARN 414845278-51               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[33m18:56:42.284  WARN 14845278-187               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[33m18:57:12.288  WARN 14845278-170               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[33m18:57:42.299  WARN 14845278-174               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[33m18:58:12.302  WARN 414845278-39               o.moqui.i.w.MoquiServlet[m Got request for Upgrade:websocket which should have been handled by servlet container, returning error
+[32m18:58:15.423  INFO 414845278-41           o.moqui.i.s.ScreenFacadeImpl[m Reloading modified screen component://aitree/screen/aitree.xml
+[Fatal Error] :10:34: Attribute name "flat" associated with an element type "q-card" must be followed by the ' = ' character.
+[1;31m18:58:15.432 ERROR 414845278-41              o.moqui.i.s.ScreenUrlInfo[m Error loading screen with path name aitree at component://aitree/screen/aitree.xml
+org.moqui.BaseException: Error parsing XML from component://aitree/screen/aitree/Home.xml
+	at org.moqui.util.MNode.parse(MNode.java:107)
+	at org.moqui.util.MNode.parse(MNode.java:67)
+	at org.moqui.util.MNode.parse(MNode.java:58)
+	at org.moqui.impl.screen.ScreenDefinition.populateSubscreens(ScreenDefinition.groovy:407)
+	at org.moqui.impl.screen.ScreenDefinition.<init>(ScreenDefinition.groovy:249)
+	at org.moqui.impl.screen.ScreenFacadeImpl.makeScreenDefinition(ScreenFacadeImpl.groovy:203)
+	at org.moqui.impl.screen.ScreenFacadeImpl.getScreenDefinition(ScreenFacadeImpl.groovy:157)
+	at org.moqui.impl.screen.ScreenUrlInfo.initUrl(ScreenUrlInfo.groovy:612)
+	at org.moqui.impl.screen.ScreenUrlInfo.<init>(ScreenUrlInfo.groovy:227)
+	at org.moqui.impl.screen.ScreenUrlInfo.getScreenUrlInfo(ScreenUrlInfo.groovy:163)
+	at org.moqui.impl.screen.ScreenRenderImpl.internalRender(ScreenRenderImpl.groovy:300)
+	at org.moqui.impl.screen.ScreenRenderImpl.render(ScreenRenderImpl.groovy:173)
+	at org.moqui.impl.webapp.MoquiServlet.service(MoquiServlet.groovy:118)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.moqui.impl.webapp.ElasticRequestLogFilter.doFilter(ElasticRequestLogFilter.groovy:96)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.xml.sax.SAXParseException: Attribute name "flat" associated with an element type "q-card" must be followed by the ' = ' character.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.moqui.util.MNode.parse(MNode.java:104)
+	... 15 more
+[33m18:58:15.433  WARN 414845278-41               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [aitree:component://aitree/screen/aitree.xml] under screen [component://webroot/screen/webroot.xml] while finding url for path [aitree, aitree, Home] under from screen [component://webroot/screen/webroot.xml]
+[32m18:58:15.481  INFO 414845278-41           o.moqui.i.s.ScreenRenderImpl[m error/NotFound [] in 48ms (text/html;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[33m18:58:15.503  WARN 14845278-121               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [com.chrome.devtools.json] under screen [component://webroot/screen/webroot.xml] while finding url for path [.well-known, appspecific, com.chrome.devtools.json] under from screen [component://webroot/screen/webroot.xml]
+[33m18:58:15.578  WARN 14845278-170               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [bootstrap.min.css.map] under screen [component://webroot/screen/webroot.xml] while finding url for path [libs, twitter-bootstrap, css, bootstrap.min.css.map] under from screen [component://webroot/screen/webroot.xml]
+[32m18:58:15.587  INFO 14845278-192              o.moqui.i.c.WebFacadeImpl[m Streamed 1150 bytes from location component://webroot/screen/webroot/favicon.ico
+[Fatal Error] :10:34: Attribute name "flat" associated with an element type "q-card" must be followed by the ' = ' character.
+[1;31m18:58:55.053 ERROR 14845278-171              o.moqui.i.s.ScreenUrlInfo[m Error loading screen with path name aitree at component://aitree/screen/aitree.xml
+org.moqui.BaseException: Error parsing XML from component://aitree/screen/aitree/Home.xml
+	at org.moqui.util.MNode.parse(MNode.java:107)
+	at org.moqui.util.MNode.parse(MNode.java:67)
+	at org.moqui.util.MNode.parse(MNode.java:58)
+	at org.moqui.impl.screen.ScreenDefinition.populateSubscreens(ScreenDefinition.groovy:407)
+	at org.moqui.impl.screen.ScreenDefinition.<init>(ScreenDefinition.groovy:249)
+	at org.moqui.impl.screen.ScreenFacadeImpl.makeScreenDefinition(ScreenFacadeImpl.groovy:203)
+	at org.moqui.impl.screen.ScreenFacadeImpl.getScreenDefinition(ScreenFacadeImpl.groovy:157)
+	at org.moqui.impl.screen.ScreenUrlInfo.initUrl(ScreenUrlInfo.groovy:612)
+	at org.moqui.impl.screen.ScreenUrlInfo.<init>(ScreenUrlInfo.groovy:227)
+	at org.moqui.impl.screen.ScreenUrlInfo.getScreenUrlInfo(ScreenUrlInfo.groovy:163)
+	at org.moqui.impl.screen.ScreenRenderImpl.internalRender(ScreenRenderImpl.groovy:300)
+	at org.moqui.impl.screen.ScreenRenderImpl.render(ScreenRenderImpl.groovy:173)
+	at org.moqui.impl.webapp.MoquiServlet.service(MoquiServlet.groovy:118)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.moqui.impl.webapp.ElasticRequestLogFilter.doFilter(ElasticRequestLogFilter.groovy:96)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.xml.sax.SAXParseException: Attribute name "flat" associated with an element type "q-card" must be followed by the ' = ' character.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.moqui.util.MNode.parse(MNode.java:104)
+	... 15 more
+[33m18:58:55.053  WARN 14845278-171               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [aitree:component://aitree/screen/aitree.xml] under screen [component://webroot/screen/webroot.xml] while finding url for path [aitree] under from screen [component://webroot/screen/webroot.xml]
+[32m18:58:55.102  INFO 14845278-171           o.moqui.i.s.ScreenRenderImpl[m error/NotFound [] in 49ms (text/html;charset=utf-8) session node0qmcmxu1bwu2wt4se33spc7ik9
+[33m18:58:55.114  WARN 14845278-200               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [com.chrome.devtools.json] under screen [component://webroot/screen/webroot.xml] while finding url for path [.well-known, appspecific, com.chrome.devtools.json] under from screen [component://webroot/screen/webroot.xml]
+[33m18:58:55.153  WARN 414845278-37               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [bootstrap.min.css.map] under screen [component://webroot/screen/webroot.xml] while finding url for path [libs, twitter-bootstrap, css, bootstrap.min.css.map] under from screen [component://webroot/screen/webroot.xml]
+[Fatal Error] :10:34: Attribute name "flat" associated with an element type "q-card" must be followed by the ' = ' character.
+[1;31m19:00:29.837 ERROR 14845278-174              o.moqui.i.s.ScreenUrlInfo[m Error loading screen with path name aitree at component://aitree/screen/aitree.xml
+org.moqui.BaseException: Error parsing XML from component://aitree/screen/aitree/Home.xml
+	at org.moqui.util.MNode.parse(MNode.java:107)
+	at org.moqui.util.MNode.parse(MNode.java:67)
+	at org.moqui.util.MNode.parse(MNode.java:58)
+	at org.moqui.impl.screen.ScreenDefinition.populateSubscreens(ScreenDefinition.groovy:407)
+	at org.moqui.impl.screen.ScreenDefinition.<init>(ScreenDefinition.groovy:249)
+	at org.moqui.impl.screen.ScreenFacadeImpl.makeScreenDefinition(ScreenFacadeImpl.groovy:203)
+	at org.moqui.impl.screen.ScreenFacadeImpl.getScreenDefinition(ScreenFacadeImpl.groovy:157)
+	at org.moqui.impl.screen.ScreenUrlInfo.initUrl(ScreenUrlInfo.groovy:612)
+	at org.moqui.impl.screen.ScreenUrlInfo.<init>(ScreenUrlInfo.groovy:227)
+	at org.moqui.impl.screen.ScreenUrlInfo.getScreenUrlInfo(ScreenUrlInfo.groovy:141)
+	at org.moqui.impl.screen.ScreenUrlInfo.getScreenUrlInfo(ScreenUrlInfo.groovy:175)
+	at org.moqui.impl.context.UserFacadeImpl.initFromHttpRequest(UserFacadeImpl.groovy:188)
+	at org.moqui.impl.context.ExecutionContextImpl.initWebFacade(ExecutionContextImpl.java:185)
+	at org.moqui.impl.webapp.MoquiServlet.service(MoquiServlet.groovy:114)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.moqui.impl.webapp.ElasticRequestLogFilter.doFilter(ElasticRequestLogFilter.groovy:96)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.xml.sax.SAXParseException: Attribute name "flat" associated with an element type "q-card" must be followed by the ' = ' character.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.moqui.util.MNode.parse(MNode.java:104)
+	... 16 more
+[33m19:00:29.837  WARN 14845278-174               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [aitree:component://aitree/screen/aitree.xml] under screen [component://webroot/screen/webroot.xml] while finding url for path [aitree] under from screen [component://webroot/screen/webroot.xml]
+[32m19:00:56.536  INFO iScheduled-2         o.moqui.i.s.ScheduledJobRunner[m Running job autoApprove_OrdersDelayed run 111124 (last run 2026-02-21 18:45:56.53, schedule 2026-02-21T19:00-07:00[America/Denver])
+[32m19:00:56.547  INFO iScheduled-2           o.moqui.i.e.EntityFacadeImpl[m Found entities in 48 files in 7ms
+[32m19:00:56.547  INFO iScheduled-2           o.moqui.i.e.EntityFacadeImpl[m Found 1 view-entity definitions in database (DbViewEntity records)
+[32m19:00:56.555  INFO iScheduled-2         o.moqui.i.s.ScheduledJobRunner[m Running job recalculate_GlAccountOrgSummaries run 111125 (last run 2026-02-21 18:00:23.078, schedule 2026-02-21T19:00-07:00[America/Denver])
+[32m19:00:56.559  INFO iScheduled-2         o.moqui.i.s.ScheduledJobRunner[m Running job render_ScheduledScreens_frequent run 111126 (last run 2026-02-21 18:45:56.53, schedule 2026-02-21T19:00-07:00[America/Denver])
+[32m19:00:56.560  INFO iScheduled-2         o.moqui.i.s.ScheduledJobRunner[m Ran 3 Service Jobs starting 2026-02-21T19:00:56.531003212-07:00[America/Denver] - active: 7, paused: 12; on this server using 3 of 32 job slots
+[32m19:00:56.902  INFO   MoquiJob-2           o.moqui.i.c.LoggerFacadeImpl[m [Recalculate GlAccountOrgSummaries] lastRunTime 2026-02-21 18:00:23.078, 4 time periods, organizations: [ORG_ZIZI_CORP]
+[32m19:00:56.947  INFO   MoquiJob-2          o.moqui.i.c.MessageFacadeImpl[m [info] Updated GL Account Org Summaries for orgs [ORG_ZIZI_CORP] in 76ms; updated 0 Organization and 0 Period summary records
+[33m19:00:57.068  WARN oquiWorker-5           o.moqui.i.c.LoggerFacadeImpl[m Not saving or sending email for ScheduledScreen PopcAccRecAging: noResultsAbort Y _formListRendered true _formListResultCount 0
+[Fatal Error] :10:34: Attribute name "flat" associated with an element type "q-card" must be followed by the ' = ' character.
+[1;31m19:01:16.181 ERROR 14845278-121              o.moqui.i.s.ScreenUrlInfo[m Error loading screen with path name aitree at component://aitree/screen/aitree.xml
+org.moqui.BaseException: Error parsing XML from component://aitree/screen/aitree/Home.xml
+	at org.moqui.util.MNode.parse(MNode.java:107)
+	at org.moqui.util.MNode.parse(MNode.java:67)
+	at org.moqui.util.MNode.parse(MNode.java:58)
+	at org.moqui.impl.screen.ScreenDefinition.populateSubscreens(ScreenDefinition.groovy:407)
+	at org.moqui.impl.screen.ScreenDefinition.<init>(ScreenDefinition.groovy:249)
+	at org.moqui.impl.screen.ScreenFacadeImpl.makeScreenDefinition(ScreenFacadeImpl.groovy:203)
+	at org.moqui.impl.screen.ScreenFacadeImpl.getScreenDefinition(ScreenFacadeImpl.groovy:157)
+	at org.moqui.impl.screen.ScreenUrlInfo.initUrl(ScreenUrlInfo.groovy:612)
+	at org.moqui.impl.screen.ScreenUrlInfo.<init>(ScreenUrlInfo.groovy:227)
+	at org.moqui.impl.screen.ScreenUrlInfo.getScreenUrlInfo(ScreenUrlInfo.groovy:141)
+	at org.moqui.impl.screen.ScreenUrlInfo.getScreenUrlInfo(ScreenUrlInfo.groovy:175)
+	at org.moqui.impl.context.UserFacadeImpl.initFromHttpRequest(UserFacadeImpl.groovy:188)
+	at org.moqui.impl.context.ExecutionContextImpl.initWebFacade(ExecutionContextImpl.java:185)
+	at org.moqui.impl.webapp.MoquiServlet.service(MoquiServlet.groovy:114)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.moqui.impl.webapp.ElasticRequestLogFilter.doFilter(ElasticRequestLogFilter.groovy:96)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.xml.sax.SAXParseException: Attribute name "flat" associated with an element type "q-card" must be followed by the ' = ' character.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.moqui.util.MNode.parse(MNode.java:104)
+	... 16 more
+[33m19:01:16.181  WARN 14845278-121               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [aitree:component://aitree/screen/aitree.xml] under screen [component://webroot/screen/webroot.xml] while finding url for path [aitree] under from screen [component://webroot/screen/webroot.xml]
+[32m19:01:51.020  INFO 14845278-170           o.moqui.i.s.ScreenRenderImpl[m aitree/Home [] in 79ms (text/html;charset=utf-8) session node0wmswgtxbb69xa1ad8iuzvegs18
+[32m19:03:16.801  INFO 14845278-192           o.moqui.i.s.ScreenFacadeImpl[m Reloading modified screen component://aitree/screen/aitree.xml
+[Fatal Error] :10:34: Attribute name "flat" associated with an element type "q-card" must be followed by the ' = ' character.
+[1;31m19:03:16.802 ERROR 14845278-192              o.moqui.i.s.ScreenUrlInfo[m Error loading screen with path name aitree at component://aitree/screen/aitree.xml
+org.moqui.BaseException: Error parsing XML from component://aitree/screen/aitree/Home.xml
+	at org.moqui.util.MNode.parse(MNode.java:107)
+	at org.moqui.util.MNode.parse(MNode.java:67)
+	at org.moqui.util.MNode.parse(MNode.java:58)
+	at org.moqui.impl.screen.ScreenDefinition.populateSubscreens(ScreenDefinition.groovy:407)
+	at org.moqui.impl.screen.ScreenDefinition.<init>(ScreenDefinition.groovy:249)
+	at org.moqui.impl.screen.ScreenFacadeImpl.makeScreenDefinition(ScreenFacadeImpl.groovy:203)
+	at org.moqui.impl.screen.ScreenFacadeImpl.getScreenDefinition(ScreenFacadeImpl.groovy:157)
+	at org.moqui.impl.screen.ScreenUrlInfo.initUrl(ScreenUrlInfo.groovy:612)
+	at org.moqui.impl.screen.ScreenUrlInfo.<init>(ScreenUrlInfo.groovy:227)
+	at org.moqui.impl.screen.ScreenUrlInfo.getScreenUrlInfo(ScreenUrlInfo.groovy:141)
+	at org.moqui.impl.screen.ScreenUrlInfo.getScreenUrlInfo(ScreenUrlInfo.groovy:175)
+	at org.moqui.impl.context.UserFacadeImpl.initFromHttpRequest(UserFacadeImpl.groovy:188)
+	at org.moqui.impl.context.ExecutionContextImpl.initWebFacade(ExecutionContextImpl.java:185)
+	at org.moqui.impl.webapp.MoquiServlet.service(MoquiServlet.groovy:114)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.moqui.impl.webapp.ElasticRequestLogFilter.doFilter(ElasticRequestLogFilter.groovy:96)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.xml.sax.SAXParseException: Attribute name "flat" associated with an element type "q-card" must be followed by the ' = ' character.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.moqui.util.MNode.parse(MNode.java:104)
+	... 16 more
+[33m19:03:16.802  WARN 14845278-192               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [aitree:component://aitree/screen/aitree.xml] under screen [component://webroot/screen/webroot.xml] while finding url for path [aitree] under from screen [component://webroot/screen/webroot.xml]
+[Fatal Error] :10:34: Attribute name "flat" associated with an element type "q-card" must be followed by the ' = ' character.
+[1;31m19:03:56.191 ERROR 14845278-171              o.moqui.i.s.ScreenUrlInfo[m Error loading screen with path name aitree at component://aitree/screen/aitree.xml
+org.moqui.BaseException: Error parsing XML from component://aitree/screen/aitree/Home.xml
+	at org.moqui.util.MNode.parse(MNode.java:107)
+	at org.moqui.util.MNode.parse(MNode.java:67)
+	at org.moqui.util.MNode.parse(MNode.java:58)
+	at org.moqui.impl.screen.ScreenDefinition.populateSubscreens(ScreenDefinition.groovy:407)
+	at org.moqui.impl.screen.ScreenDefinition.<init>(ScreenDefinition.groovy:249)
+	at org.moqui.impl.screen.ScreenFacadeImpl.makeScreenDefinition(ScreenFacadeImpl.groovy:203)
+	at org.moqui.impl.screen.ScreenFacadeImpl.getScreenDefinition(ScreenFacadeImpl.groovy:157)
+	at org.moqui.impl.screen.ScreenUrlInfo.initUrl(ScreenUrlInfo.groovy:612)
+	at org.moqui.impl.screen.ScreenUrlInfo.<init>(ScreenUrlInfo.groovy:227)
+	at org.moqui.impl.screen.ScreenUrlInfo.getScreenUrlInfo(ScreenUrlInfo.groovy:141)
+	at org.moqui.impl.screen.ScreenUrlInfo.getScreenUrlInfo(ScreenUrlInfo.groovy:175)
+	at org.moqui.impl.context.UserFacadeImpl.initFromHttpRequest(UserFacadeImpl.groovy:188)
+	at org.moqui.impl.context.ExecutionContextImpl.initWebFacade(ExecutionContextImpl.java:185)
+	at org.moqui.impl.webapp.MoquiServlet.service(MoquiServlet.groovy:114)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.moqui.impl.webapp.ElasticRequestLogFilter.doFilter(ElasticRequestLogFilter.groovy:96)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.xml.sax.SAXParseException: Attribute name "flat" associated with an element type "q-card" must be followed by the ' = ' character.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.moqui.util.MNode.parse(MNode.java:104)
+	... 16 more
+[33m19:03:56.191  WARN 14845278-171               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [aitree:component://aitree/screen/aitree.xml] under screen [component://webroot/screen/webroot.xml] while finding url for path [aitree] under from screen [component://webroot/screen/webroot.xml]
+[Fatal Error] :10:34: Attribute name "flat" associated with an element type "q-card" must be followed by the ' = ' character.
+[1;31m19:04:20.772 ERROR 14845278-201              o.moqui.i.s.ScreenUrlInfo[m Error loading screen with path name aitree at component://aitree/screen/aitree.xml
+org.moqui.BaseException: Error parsing XML from component://aitree/screen/aitree/Home.xml
+	at org.moqui.util.MNode.parse(MNode.java:107)
+	at org.moqui.util.MNode.parse(MNode.java:67)
+	at org.moqui.util.MNode.parse(MNode.java:58)
+	at org.moqui.impl.screen.ScreenDefinition.populateSubscreens(ScreenDefinition.groovy:407)
+	at org.moqui.impl.screen.ScreenDefinition.<init>(ScreenDefinition.groovy:249)
+	at org.moqui.impl.screen.ScreenFacadeImpl.makeScreenDefinition(ScreenFacadeImpl.groovy:203)
+	at org.moqui.impl.screen.ScreenFacadeImpl.getScreenDefinition(ScreenFacadeImpl.groovy:157)
+	at org.moqui.impl.screen.ScreenUrlInfo.initUrl(ScreenUrlInfo.groovy:612)
+	at org.moqui.impl.screen.ScreenUrlInfo.<init>(ScreenUrlInfo.groovy:227)
+	at org.moqui.impl.screen.ScreenUrlInfo.getScreenUrlInfo(ScreenUrlInfo.groovy:141)
+	at org.moqui.impl.screen.ScreenUrlInfo.getScreenUrlInfo(ScreenUrlInfo.groovy:175)
+	at org.moqui.impl.context.UserFacadeImpl.initFromHttpRequest(UserFacadeImpl.groovy:188)
+	at org.moqui.impl.context.ExecutionContextImpl.initWebFacade(ExecutionContextImpl.java:185)
+	at org.moqui.impl.webapp.MoquiServlet.service(MoquiServlet.groovy:114)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.moqui.impl.webapp.ElasticRequestLogFilter.doFilter(ElasticRequestLogFilter.groovy:96)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.xml.sax.SAXParseException: Attribute name "flat" associated with an element type "q-card" must be followed by the ' = ' character.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.moqui.util.MNode.parse(MNode.java:104)
+	... 16 more
+[33m19:04:20.772  WARN 14845278-201               o.moqui.i.w.MoquiServlet[m Web Resource Not Found: Could not find subscreen or transition or file/content [aitree:component://aitree/screen/aitree.xml] under screen [component://webroot/screen/webroot.xml] while finding url for path [aitree] under from screen [component://webroot/screen/webroot.xml]
+[32m19:06:13.451  INFO utdownThread                   o.eclipse.j.s.Server[m Stopped oejs.Server@5ae81e1{STOPPING}[12.1.5,sto=30000]
+[32m19:06:13.452  INFO utdownThread                   o.eclipse.j.s.Server[m Shutdown oejs.Server@5ae81e1{STOPPING}[12.1.5,sto=30000]
+[32m19:06:13.456  INFO utdownThread        o.eclipse.j.s.AbstractConnector[m Stopped oejs.ServerConnector@257c21c1{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[32m19:06:13.458  INFO utdownThread           o.moqui.m.EnhancedMcpServlet[m Destroying EnhancedMcpServlet
+[32m19:06:13.461  INFO utdownThread o.moqui.m.a.MoquiNotificationMcpBridge[m MoquiNotificationMcpBridge destroyed
+[32m19:06:13.463  INFO utdownThread       o.moqui.i.w.MoquiContextListener[m Context Destroyed for Moqui webapp [ROOT]
+[32m19:06:13.582  INFO utdownThread .moqui.i.c.ExecutionContextFactoryImpl[m ArtifactHitBins stored
+[32m19:06:13.582  INFO utdownThread .moqui.i.c.ExecutionContextFactoryImpl[m Shutting scheduled executor
+[32m19:06:13.582  INFO utdownThread .moqui.i.c.ExecutionContextFactoryImpl[m Shutting down worker pool
+[32m19:06:13.582  INFO utdownThread .moqui.i.c.ExecutionContextFactoryImpl[m Scheduled executor shut down and terminated
+[32m19:06:13.583  INFO utdownThread .moqui.i.c.ExecutionContextFactoryImpl[m Worker pool shut down and terminated
+[32m19:06:13.583  INFO utdownThread o.moqui.m.a.MoquiNotificationMcpBridge[m MoquiNotificationMcpBridge destroyed
+[32m19:06:13.583  INFO utdownThread .moqui.i.c.ExecutionContextFactoryImpl[m Destroying ToolFactory: FOP
+[32m19:06:13.583  INFO utdownThread .moqui.i.c.ExecutionContextFactoryImpl[m Destroying ToolFactory: H2Server
+[32m19:06:13.583  INFO utdownThread .moqui.i.c.ExecutionContextFactoryImpl[m Destroying ToolFactory: MCache
+[32m19:06:13.584  INFO utdownThread .moqui.i.c.TransactionInternalBitronix[m Shutting down Bitronix
+Facades destroyed
+[32m19:06:14.029  INFO utdownThread .moqui.i.c.ExecutionContextFactoryImpl[m Facades destroyed
+Moqui ExecutionContextFactory Destroyed
+[32m19:06:14.029  INFO utdownThread       o.moqui.i.w.MoquiContextListener[m Destroyed Moqui Execution Context Factory for webapp [ROOT]
+[32m19:06:14.051  INFO utdownThread  o.eclipse.j.e.s.ServletContextHandler[m Stopped oeje11w.WebAppContext@2fd1731c{Moqui Root Webapp,/,b=null,a=AVAILABLE,h=oeje11s.SessionHandler@50fb33a{STOPPED}}{file:/home/byersa/IdeaProjects/huddle-ai-project/moqui.war}

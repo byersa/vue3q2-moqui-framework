@@ -1,0 +1,204 @@
+Using temporary directory: /home/byersa/IdeaProjects/huddle-ai-project/execwartmp
+Determined runtime from existing runtime subdirectory: /home/byersa/IdeaProjects/huddle-ai-project/runtime
+Canonicalized runtimePath: /home/byersa/IdeaProjects/huddle-ai-project/runtime
+Determined conf by default (dev conf file): conf/MoquiDevConf.xml
+Running Jetty server on port 8080 max threads 100 with args [{groovy=, check_service_registry.groovy=}]
+Creating Jetty FileSessionDataStore with directory /home/byersa/IdeaProjects/huddle-ai-project/runtime/sessions
+Jetty min threads 8, max threads 100
+[32m14:07:52.712  INFO         main                   o.eclipse.j.s.Server[m jetty-12.1.5; built: 2025-12-03T22:18:24.732Z; git: 4905d09d7b6801e792d7b73946cf7b66e4be25d6; jvm 21.0.9+10-LTS
+[32m14:07:52.731  INFO         main  o.eclipse.j.s.DefaultSessionIdManager[m Session workerName=node0
+[32m14:07:53.506  INFO         main ipse.j.e.w.StandardDescriptorProcessor[m NO JSP Support for /, did not find org.eclipse.jetty.ee11.jsp.JettyJspServlet
+[32m14:07:53.906  INFO         main         o.eclipse.j.s.h.ContextHandler[m Started oeje11w.WebAppContext@a7e2d9d{Moqui Root Webapp,/,b=file:///home/byersa/IdeaProjects/huddle-ai-project/execwartmp/ROOT/webapp/,a=AVAILABLE,h=oeje11s.SessionHandler@443effcb{STARTED}}{file:/home/byersa/IdeaProjects/huddle-ai-project/moqui.war}
+[32m14:07:53.989  INFO         main       o.moqui.i.w.MoquiContextListener[m Loading Webapp 'webroot' (Moqui Root Webapp) on ROOT, located at: /home/byersa/IdeaProjects/huddle-ai-project/execwartmp/ROOT/webapp/
+[32m14:07:54.072  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initializing Moqui Framework version 4.0.0
+ - runtime directory: /home/byersa/IdeaProjects/huddle-ai-project/runtime
+ - runtime config:    /home/byersa/IdeaProjects/huddle-ai-project/runtime/conf/MoquiDevConf.xml
+[32m14:07:54.073  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Running on Java 21.0.9 VM 21.0.9+10-LTS Runtime 21.0.9+10-LTS
+[32m14:07:54.357  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component tools              at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/tools
+[32m14:07:54.368  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component webroot            at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/webroot
+[32m14:07:54.370  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component HiveMind           at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/HiveMind
+[32m14:07:54.371  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component MarbleERP          at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/MarbleERP
+[32m14:07:54.372  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component PopCommerce        at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopCommerce
+[32m14:07:54.374  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component PopRestStore       at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopRestStore
+[32m14:07:54.375  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component SimpleScreens      at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/SimpleScreens
+[32m14:07:54.384  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component example            at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example
+[32m14:07:54.385  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component huddle             at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle
+[32m14:07:54.386  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component mantle-udm         at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm
+[32m14:07:54.387  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component mantle-usl         at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl
+[32m14:07:54.387  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component moqui-ai           at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-ai
+[32m14:07:54.387  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component moqui-demo         at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-demo
+[32m14:07:54.388  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component moqui-fop          at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-fop
+[32m14:07:54.389  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component moqui-mcp-2        at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-mcp
+[32m14:07:54.390  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component moqui-poi          at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-poi
+[32m14:07:54.390  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component studdle            at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/studdle
+[32m14:07:54.392  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Components after depends-on sort: [tools, webroot, moqui-fop, mantle-udm, mantle-usl, SimpleScreens, HiveMind, MarbleERP, PopCommerce, PopRestStore, example, huddle, moqui-ai, moqui-demo, moqui-mcp-2, moqui-poi, studdle]
+[32m14:07:54.402  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component tools
+[32m14:07:54.408  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component moqui-fop
+[32m14:07:54.414  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component mantle-udm
+[32m14:07:54.415  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component SimpleScreens
+[32m14:07:54.416  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component HiveMind
+[32m14:07:54.417  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component MarbleERP
+[32m14:07:54.418  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component PopCommerce
+[32m14:07:54.418  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component PopRestStore
+[32m14:07:54.419  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component example
+[32m14:07:54.419  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component huddle
+[32m14:07:54.420  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component moqui-demo
+[32m14:07:54.421  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component moqui-mcp-2
+[32m14:07:54.422  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component moqui-poi
+[32m14:07:54.423  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging runtime configuration at /home/byersa/IdeaProjects/huddle-ai-project/runtime/conf/MoquiDevConf.xml
+[32m14:07:54.432  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property instance_purpose from default with value [dev]
+[32m14:07:54.433  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property default_locale from default with value [en_US]
+[32m14:07:54.433  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property default_time_zone from default with value [America/Denver]
+[32m14:07:54.433  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property database_time_zone from default with value [US/Pacific]
+[32m14:07:54.433  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property webapp_https_enabled from default with value [false]
+[32m14:07:54.433  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property webapp_allow_origins from default with value [*]
+[32m14:07:54.433  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property webapp_handle_cors from default with value [true]
+[32m14:07:54.433  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property webapp_status_ips from default with value [127.0.0.1]
+[32m14:07:54.433  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property webapp_require_session_token from default with value [true]
+[32m14:07:54.433  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property webapp_upload_executable_allow from default with value [false]
+[32m14:07:54.433  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_ds_db_conf from default with value [h2]
+[32m14:07:54.433  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_ds_host from default with value [127.0.0.1]
+[32m14:07:54.433  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_ds_database from default with value [moqui]
+[32m14:07:54.444  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_ds_url from default with value [jdbc:h2:/home/byersa/IdeaProjects/huddle-ai-project/runtime/db/h2/moqui;lock_timeout=30000]
+[32m14:07:54.445  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_ds_user from default with value [sa]
+[32m14:07:54.445  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting secret property entity_ds_password from default
+[32m14:07:54.445  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting secret property entity_ds_crypt_pass from default
+[32m14:07:54.445  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting secret property entity_ds_crypt_pass_old from default
+[32m14:07:54.445  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_add_missing_runtime from default with value [false]
+[32m14:07:54.445  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_add_missing_startup from default with value [true]
+[32m14:07:54.445  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_lock_track from default with value [true]
+[32m14:07:54.445  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_statement_timeout from default with value [false]
+[32m14:07:54.445  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_empty_db_load from default with value [all]
+[32m14:07:54.445  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_on_start_load_types from default with value [none]
+[32m14:07:54.445  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_ds_c1_disabled from default with value [true]
+[32m14:07:54.445  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_ds_c1_db_conf from default with value [mysql]
+[32m14:07:54.445  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property scheduled_job_check_time from default with value [60]
+[32m14:07:54.446  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property elasticsearch_url from default with value [http://127.0.0.1:9200]
+[32m14:07:54.446  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property kibana_host from default with value [127.0.0.1]
+[32m14:07:54.446  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property kibana_port from default with value [5601]
+[32m14:07:54.449  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Found default_time_zone America/Denver: sun.util.calendar.ZoneInfo[id="America/Denver",offset=-25200000,dstSavings=3600000,useDaylight=true,transitions=157,lastRule=java.util.SimpleTimeZone[id=America/Denver,offset=-25200000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]]
+[32m14:07:54.449  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Default locale en_US, time zone sun.util.calendar.ZoneInfo[id="America/Denver",offset=-25200000,dstSavings=3600000,useDaylight=true,transitions=157,lastRule=java.util.SimpleTimeZone[id=America/Denver,offset=-25200000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]]
+[32m14:07:54.485  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting worker pool size to 48 based on available processors * 3
+[32m14:07:54.486  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initializing worker ThreadPoolExecutor: queue limit 65535, pool-core 16, pool-max 48, pool-alive 60s
+[32m14:07:54.489  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initializing MClassLoader context org.eclipse.jetty.ee.webapp.WebAppClassLoader cur class org.eclipse.jetty.ee.webapp.WebAppClassLoader system null
+Starting MClassLoader with parent org.eclipse.jetty.ee.webapp.WebAppClassLoader
+[32m14:07:54.495  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initialized MClassLoader with parent org.eclipse.jetty.ee.webapp.WebAppClassLoader
+[32m14:07:54.496  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added JAR from runtime/lib: postgresql-42.7.2.jar
+[32m14:07:54.496  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added JAR from runtime/lib: postgresql-42.7.3.jar
+Ignoring duplicate class org.moqui.entity.EntityList in jar /home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-fop/lib/moqui-framework-4.0.0.jar
+Ignoring duplicate class org.moqui.entity.EntityValue in jar /home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-fop/lib/moqui-framework-4.0.0.jar
+Ignoring duplicate class org.moqui.util.MNode in jar /home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-fop/lib/moqui-framework-4.0.0.jar
+[32m14:07:54.529  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added JARs from component moqui-fop: [antlr4-runtime-4.5.3.jar, avalon-framework-api-4.3.1.jar, avalon-framework-impl-4.2.0.jar, avalon-framework-impl-4.3.1.jar, barcode4j-2.1.jar, barcode4j-fop-ext-2.1.jar, batik-anim-1.17.jar, batik-awt-util-1.17.jar, batik-bridge-1.17.jar, batik-codec-1.17.jar, batik-constants-1.17.jar, batik-css-1.17.jar, batik-dom-1.17.jar, batik-ext-1.17.jar, batik-extension-1.17.jar, batik-gvt-1.17.jar, batik-i18n-1.17.jar, batik-parser-1.17.jar, batik-script-1.17.jar, batik-shared-resources-1.17.jar, batik-svg-dom-1.17.jar, batik-svggen-1.17.jar, batik-transcoder-1.17.jar, batik-util-1.17.jar, batik-xml-1.17.jar, commons-cli-1.0.jar, commons-lang-1.0.jar, cssbox-4.17.jar, cssbox-pdf-1.0-SNAPSHOT.jar, fontbox-3.0.0.jar, fop-core-2.9.jar, fop-events-2.9.jar, fop-util-2.9.jar, jstyleparser-3.5.jar, junit-3.7.jar, moqui-fop-1.1.3.jar, moqui-framework-4.0.0.jar, nekohtml-1.9.22.jar, pdfbox-3.0.0.jar, pdfbox-io-3.0.0.jar, qdox-1.12.jar, unbescape-1.1.6.RELEASE.jar, xercesImpl-2.12.2.jar, xml-apis-1.4.01.jar, xml-apis-ext-1.3.04.jar, xmlgraphics-commons-2.9.jar]
+[32m14:07:54.530  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added JARs from component example: [example-3.0.0.jar]
+[32m14:07:54.530  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added JARs from component moqui-mcp-2: [moqui-mcp-2-1.0.0.jar]
+Ignoring duplicate class org.moqui.entity.EntityList in jar /home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-poi/lib/moqui-framework-4.0.0.jar
+Ignoring duplicate class org.moqui.entity.EntityValue in jar /home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-poi/lib/moqui-framework-4.0.0.jar
+Ignoring duplicate class org.moqui.util.MNode in jar /home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-poi/lib/moqui-framework-4.0.0.jar
+[32m14:07:54.535  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added JARs from component moqui-poi: [SparseBitSet-1.2.jar, commons-compress-1.21.jar, commons-math3-3.6.1.jar, curvesapi-1.07.jar, moqui-framework-4.0.0.jar, moqui-poi-1.0.1.jar, poi-5.2.3.jar, poi-ooxml-5.2.3.jar, poi-ooxml-lite-5.2.3.jar, xmlbeans-5.1.1.jar]
+[32m14:07:54.535  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initialized ClassLoaders in 48ms
+[32m14:07:54.541  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Not loading disabled ToolFactory with class: org.moqui.impl.tools.JackrabbitRunToolFactory
+[32m14:07:54.541  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Not loading disabled ToolFactory with class: org.moqui.impl.tools.SubEthaSmtpToolFactory
+[32m14:07:54.543  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Loading ToolFactory with class: org.moqui.impl.tools.MCacheToolFactory
+[32m14:07:54.545  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Loading ToolFactory with class: org.moqui.impl.tools.H2ServerToolFactory
+[32m14:07:54.549  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Loading ToolFactory with class: org.moqui.fop.FopToolFactory
+[32m14:07:54.556  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Cache Facade initialized
+[32m14:07:54.640  INFO         main         o.moqui.i.c.ResourceFacadeImpl[m Using xsl-fo-handler-factory FOP (org.moqui.fop.FopToolFactory)
+[32m14:07:54.640  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Resource Facade initialized
+[33m14:07:54.667  WARN         main                     b.tm.Configuration[m Cannot get the unique server ID for this JVM ('bitronix.tm.serverId'). Make sure it is configured and you use only US-ASCII characters. Will use IP address instead (unsafe for production usage!).
+[32m14:07:54.752  INFO         main      o.moqui.i.c.TransactionFacadeImpl[m Internal transaction manager initialized: UserTransaction class bitronix.tm.BitronixTransactionManager, TransactionManager class bitronix.tm.BitronixTransactionManager
+[32m14:07:54.752  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Transaction Facade initialized
+[32m14:07:54.787  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Database time zone is sun.util.calendar.ZoneInfo[id="US/Pacific",offset=-28800000,dstSavings=3600000,useDaylight=true,transitions=185,lastRule=java.util.SimpleTimeZone[id=US/Pacific,offset=-28800000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]]
+[32m14:07:54.840  INFO         main .moqui.i.c.TransactionInternalBitronix[m Initializing DataSource transactional_DS (postgres) with properties: [databaseName:nursinghome, serverName:localhost, user:ofbiz, portNumber:5434]
+[32m14:07:55.180  INFO         main .moqui.i.c.TransactionInternalBitronix[m Init DataSource transactional_DS (postgres) isolation READ_COMMITTED (2), max pool 50
+[32m14:07:55.192  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Skipping disabled datasource transactional#clone1
+[32m14:07:55.202  INFO         main                o.moqui.i.e.EntityCache[m Entity Cache initialized, distributed cache invalidate enabled: false
+[32m14:07:55.207  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Entity Facade initialized
+[32m14:07:55.297  INFO         main                    o.moqui.i.s.RestApi[m Loaded REST API from moqui.rest.xml (83 paths, 89 methods)
+[32m14:07:55.313  INFO         main                    o.moqui.i.s.RestApi[m Loaded REST API from mantle.rest.xml (392 paths, 416 methods)
+[32m14:07:55.317  INFO         main                    o.moqui.i.s.RestApi[m Loaded REST API from pop.rest.xml (42 paths, 41 methods)
+[32m14:07:55.319  INFO         main                    o.moqui.i.s.RestApi[m Loaded REST API from example.rest.xml (12 paths, 28 methods)
+[32m14:07:55.320  INFO         main                    o.moqui.i.s.RestApi[m Loaded REST API from huddle.rest.xml (4 paths, 5 methods)
+[32m14:07:55.321  INFO         main                    o.moqui.i.s.RestApi[m Loaded REST API files, 5 roots, in 90ms
+[32m14:07:55.321  INFO         main          o.moqui.i.s.ServiceFacadeImpl[m Setting Service Job worker pool size to 32 based on available processors * 2
+[32m14:07:55.322  INFO         main          o.moqui.i.s.ServiceFacadeImpl[m Initializing Service Job ThreadPoolExecutor: queue limit 0, pool-core 2, pool-max 32, pool-alive 120s
+[32m14:07:55.322  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Service Facade initialized
+[32m14:07:55.332  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Screen Facade initialized
+[32m14:07:55.332  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Loading entity definitions
+[32m14:07:55.410  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Found entities in 48 files in 77ms
+[32m14:07:55.590  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Found 1 view-entity definitions in database (DbViewEntity records)
+[32m14:07:55.973  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Loaded 885 entity definitions in 640ms
+[32m14:07:55.985  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Checking tables for entities in groups [transactional]
+[33m14:07:56.061  WARN         main               o.moqui.i.e.EntityDbMeta[m Found unknown columns on table HUDDLE_ARTIFACT for entity huddle.artifact.HuddleArtifact: [raw_content, vector_embedding]
+[33m14:07:56.064  WARN         main               o.moqui.i.e.EntityDbMeta[m Found unknown columns on table ORGANIZATION for entity mantle.party.Organization: [short_org_name]
+[33m14:07:56.070  WARN         main               o.moqui.i.e.EntityDbMeta[m Found unknown columns on table FACET_TYPE for entity sh.FacetType: [parent_facet_type_id, valid_regexp, data_type, perm_mode, order_by, default_value]
+[33m14:07:56.070  WARN         main               o.moqui.i.e.EntityDbMeta[m Found unknown tables in database for group transactional: [characteristic, meeting_instance_topic, party_agenda_topic, targeted_relationship, facet_value_lookup, work_effort_characteristic_cache, meeting_template, characteristic_type, meeting_template_facet_value_lookup, work_effort_content_history, s_h_content, agenda_topic_facet_value_lookup, agenda_topic_content, map_lookup, party_meeting_template, meeting_instance, facet_value, meeting_relationship, pinned, meeting_repository, agenda_topic]
+[32m14:07:56.071  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Checked tables for all entities in 0.097 seconds
+[32m14:07:56.081  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Loaded 25 Entity ECA rules from 5 .eecas.xml files, 0 rules have no id, 25 EECA rules active
+[32m14:07:56.148  INFO         main          o.moqui.i.s.ServiceFacadeImpl[m Loaded 60 Service ECA rules from 10 .secas.xml files, 0 rules have no id, 60 SECA rules active
+[32m14:07:56.156  INFO         main          o.moqui.i.s.ServiceFacadeImpl[m Loaded [1] Email ECA rules from [file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/service/Example.emecas.xml]
+[32m14:07:56.156  INFO         main          o.moqui.i.s.ServiceFacadeImpl[m No distributed-factory specified, distributed async service calls will be run local only
+[32m14:07:56.167  INFO         main          o.moqui.i.s.ServiceFacadeImpl[m Starting Scheduled Service Job Runner, checking for jobs every 60 seconds after a 120 second initial delay
+[32m14:07:56.176  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initializing ToolFactory: MCache
+[32m14:07:56.176  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initializing ToolFactory: H2Server
+[32m14:07:56.176  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initializing ToolFactory: FOP
+[32m14:07:56.436  INFO         main          o.moqui.i.c.ElasticFacadeImpl[m Initializing ElasticFacade Client for cluster default at http://127.0.0.1:9200
+[33m14:07:56.506  WARN         main               o.eclipse.j.u.s.S.config[m Trusting all certificates configured for oejus.SslContextFactory$Client@2e38d44e[provider=null,keyStore=null,trustStore=null]
+[33m14:07:56.506  WARN         main               o.eclipse.j.u.s.S.config[m No Client EndPointIdentificationAlgorithm configured for oejus.SslContextFactory$Client@2e38d44e[provider=null,keyStore=null,trustStore=null]
+[1;31m14:07:56.551 ERROR         main          o.moqui.i.c.ElasticFacadeImpl[m Error initializing ElasticClient for cluster default: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused
+[33m14:07:56.551  WARN         main          o.moqui.i.c.ElasticFacadeImpl[m No Elastic Client found with name 'logger' or 'default', not initializing ElasticSearchLogger
+[32m14:07:56.551  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Elastic Facade initialized
+[32m14:07:56.552  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Execution Context Factory initialized in 2.528 seconds
+[32m14:07:56.562  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Found 1868 Enumeration records, NOT loading empty-db-load data types (all)
+[32m14:07:56.622  INFO         main ExecutionContextFactoryImpl$WebappInfo[m Initializing webapp webroot http://null:8080 https://null:null https enabled? false
+[32m14:07:56.628  INFO         main       o.moqui.i.w.MoquiContextListener[m Added webapp filter ElasticRequestLogFilter on: [/*], [REQUEST]
+[32m14:07:56.630  INFO         main       o.moqui.i.w.MoquiContextListener[m Added webapp filter ElasticAuthFilter on: [/elastic/*], []
+[32m14:07:56.630  INFO         main       o.moqui.i.w.MoquiContextListener[m Added webapp filter KibanaAuthFilter on: [/kibana/*], []
+[32m14:07:56.631  INFO         main       o.moqui.i.w.MoquiContextListener[m Added webapp filter McpAuthFilter on: [/mcp/*], []
+[32m14:07:56.634  INFO         main       o.moqui.i.w.MoquiContextListener[m Added webapp listener org.moqui.impl.webapp.MoquiSessionListener
+[32m14:07:56.645  INFO         main       o.moqui.i.w.MoquiContextListener[m Added servlet MoquiServlet on: [/*]
+[32m14:07:56.649  INFO         main       o.moqui.i.w.MoquiContextListener[m Added servlet MoquiFopServlet on: [/fop/*]
+[32m14:07:56.663  INFO         main       o.moqui.i.w.MoquiContextListener[m Added servlet ElasticSearchProxy on: [/elastic/*]
+[32m14:07:56.671  INFO         main       o.moqui.i.w.MoquiContextListener[m Added servlet KibanaProxy on: [/kibana/*]
+[32m14:07:56.674  INFO         main       o.moqui.i.w.MoquiContextListener[m Added servlet HtmlRenderServlet on: [/htmlr/*]
+[32m14:07:56.691  INFO         main       o.moqui.i.w.MoquiContextListener[m Added servlet EnhancedMcpServlet on: [/mcp/*]
+[32m14:07:56.695  INFO         main       o.moqui.i.w.MoquiContextListener[m Added servlet H2Console on: [/h2/*]
+[32m14:07:56.696  INFO         main       o.moqui.i.w.MoquiContextListener[m Found WebSocket ServerContainer org.eclipse.jetty.ee11.websocket.jakarta.server.JakartaWebSocketServerContainer
+[32m14:07:56.708  INFO         main       o.moqui.i.w.MoquiContextListener[m Added WebSocket endpoint /notws for class org.moqui.impl.webapp.NotificationEndpoint
+[32m14:07:56.708  INFO         main       o.moqui.i.w.MoquiContextListener[m Added WebSocket endpoint /groovysh for class org.moqui.impl.webapp.GroovyShellEndpoint
+[32m14:07:56.708  INFO         main       o.moqui.i.w.MoquiContextListener[m Moqui Framework initialized in 2.801 seconds
+[1;31m14:07:56.710 ERROR         main    o.moqui.i.w.ElasticRequestLogFilter[m In ElasticRequestLogFilter init could not find ElasticClient with name logger or default, not starting
+[32m14:07:56.771  INFO         main            o.moqui.i.w.MoquiFopServlet[m MoquiFopServlet initialized for webapp webroot
+[32m14:07:56.771  INFO         main               o.moqui.i.w.MoquiServlet[m MoquiServlet initialized for webapp webroot
+[32m14:07:56.803  INFO         main o.moqui.m.a.MoquiNotificationMcpBridge[m MoquiNotificationMcpBridge initialized (transport not yet set)
+[32m14:07:56.814  INFO         main o.moqui.m.a.MoquiNotificationMcpBridge[m MoquiNotificationMcpBridge transport configured: SseTransport
+[32m14:07:56.814  INFO         main o.moqui.m.a.MoquiNotificationMcpBridge[m MoquiNotificationMcpBridge initialized (transport not yet set)
+[32m14:07:56.815  INFO         main           o.moqui.m.EnhancedMcpServlet[m Registered MoquiNotificationMcpBridge with ECF
+[32m14:07:56.815  INFO         main           o.moqui.m.EnhancedMcpServlet[m EnhancedMcpServlet initialized with adapter architecture for webapp webroot
+[32m14:07:56.815  INFO         main           o.moqui.m.EnhancedMcpServlet[m SSE endpoint: /sse, Message endpoint: /message
+[32m14:07:56.816  INFO         main           o.moqui.m.EnhancedMcpServlet[m Keep-alive interval: 30s, Max connections: 100
+[32m14:07:56.816  INFO         main  o.eclipse.j.e.s.ServletContextHandler[m Started oeje11w.WebAppContext@a7e2d9d{Moqui Root Webapp,/,b=file:///home/byersa/IdeaProjects/huddle-ai-project/execwartmp/ROOT/webapp/,a=AVAILABLE,h=oeje11s.SessionHandler@443effcb{STARTED}}{file:/home/byersa/IdeaProjects/huddle-ai-project/moqui.war}
+[32m14:07:56.824  INFO         main        o.eclipse.j.s.AbstractConnector[m Started oejs.ServerConnector@1e34840f{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[32m14:07:56.824  INFO         main                   o.eclipse.j.s.Server[m Started oejs.Server@791cbf87{STARTING}[12.1.5,sto=30000] @4118ms
+[32m14:08:42.570  INFO utdownThread                   o.eclipse.j.s.Server[m Stopped oejs.Server@791cbf87{STOPPING}[12.1.5,sto=30000]
+[32m14:08:42.571  INFO utdownThread                   o.eclipse.j.s.Server[m Shutdown oejs.Server@791cbf87{STOPPING}[12.1.5,sto=30000]
+[32m14:08:42.580  INFO utdownThread        o.eclipse.j.s.AbstractConnector[m Stopped oejs.ServerConnector@1e34840f{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[32m14:08:42.584  INFO utdownThread           o.moqui.m.EnhancedMcpServlet[m Destroying EnhancedMcpServlet
+[32m14:08:42.587  INFO utdownThread o.moqui.m.a.MoquiNotificationMcpBridge[m MoquiNotificationMcpBridge destroyed
+[32m14:08:42.588  INFO utdownThread       o.moqui.i.w.MoquiContextListener[m Context Destroyed for Moqui webapp [ROOT]
+[32m14:08:43.030  INFO RequireNewTx           o.moqui.i.e.EntityFacadeImpl[m Created 1520 automatic reverse relationships
+[32m14:08:43.179  INFO RequireNewTx             o.moqui.i.e.EntityDataFeed[m Built entity.data.feed.info cache in 556ms, entries for 62 entities
+[32m14:08:43.206  INFO utdownThread .moqui.i.c.ExecutionContextFactoryImpl[m ArtifactHitBins stored
+[32m14:08:43.206  INFO utdownThread .moqui.i.c.ExecutionContextFactoryImpl[m Shutting scheduled executor
+[32m14:08:43.206  INFO utdownThread .moqui.i.c.ExecutionContextFactoryImpl[m Shutting down worker pool
+[32m14:08:43.206  INFO utdownThread .moqui.i.c.ExecutionContextFactoryImpl[m Scheduled executor shut down and terminated
+[32m14:08:43.206  INFO utdownThread .moqui.i.c.ExecutionContextFactoryImpl[m Worker pool shut down and terminated
+[32m14:08:43.207  INFO utdownThread o.moqui.m.a.MoquiNotificationMcpBridge[m MoquiNotificationMcpBridge destroyed
+[32m14:08:43.207  INFO utdownThread .moqui.i.c.ExecutionContextFactoryImpl[m Destroying ToolFactory: FOP
+[32m14:08:43.207  INFO utdownThread .moqui.i.c.ExecutionContextFactoryImpl[m Destroying ToolFactory: H2Server
+[32m14:08:43.207  INFO utdownThread .moqui.i.c.ExecutionContextFactoryImpl[m Destroying ToolFactory: MCache
+[32m14:08:43.208  INFO utdownThread .moqui.i.c.TransactionInternalBitronix[m Shutting down Bitronix
+Facades destroyed
+[32m14:08:43.265  INFO utdownThread .moqui.i.c.ExecutionContextFactoryImpl[m Facades destroyed
+Moqui ExecutionContextFactory Destroyed
+[32m14:08:43.265  INFO utdownThread       o.moqui.i.w.MoquiContextListener[m Destroyed Moqui Execution Context Factory for webapp [ROOT]
+[32m14:08:43.277  INFO utdownThread  o.eclipse.j.e.s.ServletContextHandler[m Stopped oeje11w.WebAppContext@a7e2d9d{Moqui Root Webapp,/,b=null,a=AVAILABLE,h=oeje11s.SessionHandler@443effcb{STOPPED}}{file:/home/byersa/IdeaProjects/huddle-ai-project/moqui.war}

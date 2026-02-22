@@ -1,0 +1,725 @@
+Using temporary directory: /home/byersa/IdeaProjects/huddle-ai-project/execwartmp
+Determined runtime from Java system property: runtime
+Canonicalized runtimePath: /home/byersa/IdeaProjects/huddle-ai-project/runtime
+Determined conf from Java system property: conf/MoquiDevConf.xml
+Loading data with args {load=, data=runtime/component/huddle/data/HuddleVerifyTopicData.xml}
+[32m18:41:26.246  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initializing Moqui Framework version 4.0.0
+ - runtime directory: /home/byersa/IdeaProjects/huddle-ai-project/runtime
+ - runtime config:    /home/byersa/IdeaProjects/huddle-ai-project/runtime/conf/MoquiDevConf.xml
+[32m18:41:26.250  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Running on Java 21.0.9 VM 21.0.9+10-LTS Runtime 21.0.9+10-LTS
+[32m18:41:26.721  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component tools              at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/tools
+[32m18:41:26.732  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component webroot            at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/webroot
+[32m18:41:26.736  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component HiveMind           at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/HiveMind
+[32m18:41:26.737  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component MarbleERP          at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/MarbleERP
+[32m18:41:26.738  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component PopCommerce        at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopCommerce
+[32m18:41:26.739  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component PopRestStore       at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopRestStore
+[32m18:41:26.741  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component SimpleScreens      at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/SimpleScreens
+[32m18:41:26.749  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component example            at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example
+[32m18:41:26.751  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component huddle             at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle
+[32m18:41:26.752  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component mantle-udm         at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm
+[32m18:41:26.753  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component mantle-usl         at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl
+[32m18:41:26.753  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component moqui-ai           at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-ai
+[32m18:41:26.753  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component moqui-demo         at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-demo
+[32m18:41:26.754  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component moqui-fop          at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-fop
+[32m18:41:26.755  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component moqui-mcp-2        at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-mcp
+[32m18:41:26.756  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component moqui-poi          at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-poi
+[32m18:41:26.756  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added component studdle            at file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/studdle
+[32m18:41:26.759  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Components after depends-on sort: [tools, webroot, moqui-fop, mantle-udm, mantle-usl, SimpleScreens, HiveMind, MarbleERP, PopCommerce, PopRestStore, example, huddle, moqui-ai, moqui-demo, moqui-mcp-2, moqui-poi, studdle]
+[32m18:41:26.775  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component tools
+[32m18:41:26.784  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component moqui-fop
+[32m18:41:26.793  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component mantle-udm
+[32m18:41:26.795  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component SimpleScreens
+[32m18:41:26.798  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component HiveMind
+[32m18:41:26.800  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component MarbleERP
+[32m18:41:26.801  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component PopCommerce
+[32m18:41:26.802  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component PopRestStore
+[32m18:41:26.804  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component example
+[32m18:41:26.806  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component huddle
+[32m18:41:26.807  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component moqui-demo
+[32m18:41:26.809  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component moqui-mcp-2
+[32m18:41:26.810  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging MoquiConf.xml file from component moqui-poi
+[32m18:41:26.812  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Merging runtime configuration at /home/byersa/IdeaProjects/huddle-ai-project/runtime/conf/MoquiDevConf.xml
+[32m18:41:26.822  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property instance_purpose from default with value [dev]
+[32m18:41:26.822  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property default_locale from default with value [en_US]
+[32m18:41:26.822  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property default_time_zone from default with value [America/Denver]
+[32m18:41:26.822  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property database_time_zone from default with value [US/Pacific]
+[32m18:41:26.822  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property webapp_https_enabled from default with value [false]
+[32m18:41:26.822  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property webapp_allow_origins from default with value [*]
+[32m18:41:26.822  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property webapp_handle_cors from default with value [true]
+[32m18:41:26.823  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property webapp_status_ips from default with value [127.0.0.1]
+[32m18:41:26.823  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property webapp_require_session_token from default with value [true]
+[32m18:41:26.823  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property webapp_upload_executable_allow from default with value [false]
+[32m18:41:26.823  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_ds_db_conf from default with value [h2]
+[32m18:41:26.823  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_ds_host from default with value [127.0.0.1]
+[32m18:41:26.823  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_ds_database from default with value [moqui]
+[32m18:41:26.844  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_ds_url from default with value [jdbc:h2:/home/byersa/IdeaProjects/huddle-ai-project/runtime/db/h2/moqui;lock_timeout=30000]
+[32m18:41:26.844  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_ds_user from default with value [sa]
+[32m18:41:26.844  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting secret property entity_ds_password from default
+[32m18:41:26.844  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting secret property entity_ds_crypt_pass from default
+[32m18:41:26.844  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting secret property entity_ds_crypt_pass_old from default
+[32m18:41:26.845  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_add_missing_runtime from default with value [false]
+[32m18:41:26.845  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_add_missing_startup from default with value [true]
+[32m18:41:26.846  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_lock_track from default with value [true]
+[32m18:41:26.846  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_statement_timeout from default with value [false]
+[32m18:41:26.846  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_empty_db_load from default with value [all]
+[32m18:41:26.846  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_on_start_load_types from default with value [none]
+[32m18:41:26.846  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_ds_c1_disabled from default with value [true]
+[32m18:41:26.847  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property entity_ds_c1_db_conf from default with value [mysql]
+[32m18:41:26.847  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property scheduled_job_check_time from default with value [60]
+[32m18:41:26.847  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property elasticsearch_url from default with value [http://127.0.0.1:9200]
+[32m18:41:26.847  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property kibana_host from default with value [127.0.0.1]
+[32m18:41:26.847  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting property kibana_port from default with value [5601]
+[32m18:41:26.849  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Found default_time_zone America/Denver: sun.util.calendar.ZoneInfo[id="America/Denver",offset=-25200000,dstSavings=3600000,useDaylight=true,transitions=157,lastRule=java.util.SimpleTimeZone[id=America/Denver,offset=-25200000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]]
+[32m18:41:26.850  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Default locale en_US, time zone sun.util.calendar.ZoneInfo[id="America/Denver",offset=-25200000,dstSavings=3600000,useDaylight=true,transitions=157,lastRule=java.util.SimpleTimeZone[id=America/Denver,offset=-25200000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]]
+[32m18:41:26.879  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Setting worker pool size to 48 based on available processors * 3
+[32m18:41:26.880  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initializing worker ThreadPoolExecutor: queue limit 65535, pool-core 16, pool-max 48, pool-alive 60s
+[32m18:41:26.884  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initializing MClassLoader context MoquiStart$StartClassLoader cur class MoquiStart$StartClassLoader system null
+Starting MClassLoader with parent MoquiStart$StartClassLoader
+[32m18:41:26.890  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initialized MClassLoader with parent MoquiStart$StartClassLoader
+[32m18:41:26.892  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added JAR from runtime/lib: postgresql-42.7.2.jar
+[32m18:41:26.893  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added JAR from runtime/lib: postgresql-42.7.3.jar
+Ignoring duplicate class org.moqui.entity.EntityList in jar /home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-fop/lib/moqui-framework-4.0.0.jar
+Ignoring duplicate class org.moqui.entity.EntityValue in jar /home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-fop/lib/moqui-framework-4.0.0.jar
+Ignoring duplicate class org.moqui.util.MNode in jar /home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-fop/lib/moqui-framework-4.0.0.jar
+[32m18:41:26.914  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added JARs from component moqui-fop: [antlr4-runtime-4.5.3.jar, avalon-framework-api-4.3.1.jar, avalon-framework-impl-4.2.0.jar, avalon-framework-impl-4.3.1.jar, barcode4j-2.1.jar, barcode4j-fop-ext-2.1.jar, batik-anim-1.17.jar, batik-awt-util-1.17.jar, batik-bridge-1.17.jar, batik-codec-1.17.jar, batik-constants-1.17.jar, batik-css-1.17.jar, batik-dom-1.17.jar, batik-ext-1.17.jar, batik-extension-1.17.jar, batik-gvt-1.17.jar, batik-i18n-1.17.jar, batik-parser-1.17.jar, batik-script-1.17.jar, batik-shared-resources-1.17.jar, batik-svg-dom-1.17.jar, batik-svggen-1.17.jar, batik-transcoder-1.17.jar, batik-util-1.17.jar, batik-xml-1.17.jar, commons-cli-1.0.jar, commons-lang-1.0.jar, cssbox-4.17.jar, cssbox-pdf-1.0-SNAPSHOT.jar, fontbox-3.0.0.jar, fop-core-2.9.jar, fop-events-2.9.jar, fop-util-2.9.jar, jstyleparser-3.5.jar, junit-3.7.jar, moqui-fop-1.1.3.jar, moqui-framework-4.0.0.jar, nekohtml-1.9.22.jar, pdfbox-3.0.0.jar, pdfbox-io-3.0.0.jar, qdox-1.12.jar, unbescape-1.1.6.RELEASE.jar, xercesImpl-2.12.2.jar, xml-apis-1.4.01.jar, xml-apis-ext-1.3.04.jar, xmlgraphics-commons-2.9.jar]
+[32m18:41:26.915  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added JARs from component example: [example-3.0.0.jar]
+[32m18:41:26.915  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added JARs from component moqui-mcp-2: [moqui-mcp-2-1.0.0.jar]
+Ignoring duplicate class org.moqui.entity.EntityList in jar /home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-poi/lib/moqui-framework-4.0.0.jar
+Ignoring duplicate class org.moqui.entity.EntityValue in jar /home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-poi/lib/moqui-framework-4.0.0.jar
+Ignoring duplicate class org.moqui.util.MNode in jar /home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-poi/lib/moqui-framework-4.0.0.jar
+[32m18:41:26.928  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Added JARs from component moqui-poi: [SparseBitSet-1.2.jar, commons-compress-1.21.jar, commons-math3-3.6.1.jar, curvesapi-1.07.jar, moqui-framework-4.0.0.jar, moqui-poi-1.0.1.jar, poi-5.2.3.jar, poi-ooxml-5.2.3.jar, poi-ooxml-lite-5.2.3.jar, xmlbeans-5.1.1.jar]
+[32m18:41:26.929  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initialized ClassLoaders in 46ms
+[32m18:41:26.937  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Not loading disabled ToolFactory with class: org.moqui.impl.tools.JackrabbitRunToolFactory
+[32m18:41:26.937  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Not loading disabled ToolFactory with class: org.moqui.impl.tools.SubEthaSmtpToolFactory
+[32m18:41:26.939  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Loading ToolFactory with class: org.moqui.impl.tools.MCacheToolFactory
+[32m18:41:26.943  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Loading ToolFactory with class: org.moqui.impl.tools.H2ServerToolFactory
+[32m18:41:26.947  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Loading ToolFactory with class: org.moqui.fop.FopToolFactory
+[32m18:41:26.959  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Cache Facade initialized
+[32m18:41:27.110  INFO         main         o.moqui.i.c.ResourceFacadeImpl[m Using xsl-fo-handler-factory FOP (org.moqui.fop.FopToolFactory)
+[32m18:41:27.110  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Resource Facade initialized
+[33m18:41:27.146  WARN         main                     b.tm.Configuration[m Cannot get the unique server ID for this JVM ('bitronix.tm.serverId'). Make sure it is configured and you use only US-ASCII characters. Will use IP address instead (unsafe for production usage!).
+[32m18:41:27.246  INFO         main      o.moqui.i.c.TransactionFacadeImpl[m Internal transaction manager initialized: UserTransaction class bitronix.tm.BitronixTransactionManager, TransactionManager class bitronix.tm.BitronixTransactionManager
+[32m18:41:27.247  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Transaction Facade initialized
+[32m18:41:27.283  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Database time zone is sun.util.calendar.ZoneInfo[id="US/Pacific",offset=-28800000,dstSavings=3600000,useDaylight=true,transitions=185,lastRule=java.util.SimpleTimeZone[id=US/Pacific,offset=-28800000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]]
+[32m18:41:27.341  INFO         main .moqui.i.c.TransactionInternalBitronix[m Initializing DataSource transactional_DS (postgres) with properties: [databaseName:nursinghome, serverName:localhost, user:ofbiz, portNumber:5434]
+[32m18:41:27.717  INFO         main .moqui.i.c.TransactionInternalBitronix[m Init DataSource transactional_DS (postgres) isolation READ_COMMITTED (2), max pool 50
+[32m18:41:27.726  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Skipping disabled datasource transactional#clone1
+[32m18:41:27.736  INFO         main                o.moqui.i.e.EntityCache[m Entity Cache initialized, distributed cache invalidate enabled: false
+[32m18:41:27.743  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Entity Facade initialized
+[32m18:41:27.827  INFO         main                    o.moqui.i.s.RestApi[m Loaded REST API from moqui.rest.xml (83 paths, 89 methods)
+[32m18:41:27.846  INFO         main                    o.moqui.i.s.RestApi[m Loaded REST API from mantle.rest.xml (392 paths, 416 methods)
+[32m18:41:27.849  INFO         main                    o.moqui.i.s.RestApi[m Loaded REST API from pop.rest.xml (42 paths, 41 methods)
+[32m18:41:27.851  INFO         main                    o.moqui.i.s.RestApi[m Loaded REST API from example.rest.xml (12 paths, 28 methods)
+[32m18:41:27.852  INFO         main                    o.moqui.i.s.RestApi[m Loaded REST API from huddle.rest.xml (4 paths, 5 methods)
+[32m18:41:27.852  INFO         main                    o.moqui.i.s.RestApi[m Loaded REST API files, 5 roots, in 88ms
+[32m18:41:27.853  INFO         main          o.moqui.i.s.ServiceFacadeImpl[m Setting Service Job worker pool size to 32 based on available processors * 2
+[32m18:41:27.853  INFO         main          o.moqui.i.s.ServiceFacadeImpl[m Initializing Service Job ThreadPoolExecutor: queue limit 0, pool-core 2, pool-max 32, pool-alive 120s
+[32m18:41:27.854  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Service Facade initialized
+[32m18:41:27.863  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Screen Facade initialized
+[32m18:41:27.863  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Loading entity definitions
+[32m18:41:27.975  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Found entities in 48 files in 111ms
+[32m18:41:28.188  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Found 1 view-entity definitions in database (DbViewEntity records)
+[32m18:41:28.690  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Loaded 896 entity definitions in 827ms
+[32m18:41:28.698  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Checking tables for entities in groups [transactional]
+[33m18:41:28.781  WARN         main               o.moqui.i.e.EntityDbMeta[m Found unknown columns on table HUDDLE_ARTIFACT for entity huddle.artifact.HuddleArtifact: [raw_content, vector_embedding]
+[33m18:41:28.785  WARN         main               o.moqui.i.e.EntityDbMeta[m Found unknown columns on table ORGANIZATION for entity mantle.party.Organization: [short_org_name]
+[33m18:41:28.790  WARN         main               o.moqui.i.e.EntityDbMeta[m Found unknown tables in database for group transactional: [characteristic, meeting_instance_topic, work_effort_attribute, party_agenda_topic, targeted_relationship, work_effort_characteristic_cache, meeting_template, characteristic_type, meeting_template_facet_value_lookup, work_effort_content_history, s_h_content, map_lookup, party_meeting_template, meeting_instance, meeting_relationship, pinned, meeting_repository]
+[32m18:41:28.791  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Checked tables for all entities in 0.101 seconds
+[32m18:41:28.803  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Loaded 25 Entity ECA rules from 5 .eecas.xml files, 0 rules have no id, 25 EECA rules active
+[32m18:41:28.856  INFO         main          o.moqui.i.s.ServiceFacadeImpl[m Loaded 60 Service ECA rules from 10 .secas.xml files, 0 rules have no id, 60 SECA rules active
+[32m18:41:28.864  INFO         main          o.moqui.i.s.ServiceFacadeImpl[m Loaded [1] Email ECA rules from [file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/service/Example.emecas.xml]
+[32m18:41:28.865  INFO         main          o.moqui.i.s.ServiceFacadeImpl[m No distributed-factory specified, distributed async service calls will be run local only
+[32m18:41:28.881  INFO         main          o.moqui.i.s.ServiceFacadeImpl[m Starting Scheduled Service Job Runner, checking for jobs every 60 seconds after a 120 second initial delay
+[32m18:41:28.894  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initializing ToolFactory: MCache
+[32m18:41:28.894  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initializing ToolFactory: H2Server
+[32m18:41:28.894  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Initializing ToolFactory: FOP
+[32m18:41:29.250  INFO         main          o.moqui.i.c.ElasticFacadeImpl[m Initializing ElasticFacade Client for cluster default at http://127.0.0.1:9200
+[33m18:41:29.344  WARN         main               o.eclipse.j.u.s.S.config[m Trusting all certificates configured for oejus.SslContextFactory$Client@5855b0ed[provider=null,keyStore=null,trustStore=null]
+[33m18:41:29.345  WARN         main               o.eclipse.j.u.s.S.config[m No Client EndPointIdentificationAlgorithm configured for oejus.SslContextFactory$Client@5855b0ed[provider=null,keyStore=null,trustStore=null]
+[1;31m18:41:29.395 ERROR         main          o.moqui.i.c.ElasticFacadeImpl[m Error initializing ElasticClient for cluster default: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused
+[33m18:41:29.395  WARN         main          o.moqui.i.c.ElasticFacadeImpl[m No Elastic Client found with name 'logger' or 'default', not initializing ElasticSearchLogger
+[32m18:41:29.395  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Elastic Facade initialized
+[32m18:41:29.396  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Execution Context Factory initialized in 3.367 seconds
+[32m18:41:29.471  INFO         main           o.moqui.i.e.EntityFacadeImpl[m Created 1537 automatic reverse relationships
+[32m18:41:29.479  INFO         main       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from the following locations: 
+ - classpath://entity/BasicEntities.xml
+ - classpath://entity/EntityEntities.xml
+ - classpath://entity/OlapEntities.xml
+ - classpath://entity/ResourceEntities.xml
+ - classpath://entity/ScreenEntities.xml
+ - classpath://entity/SecurityEntities.xml
+ - classpath://entity/ServerEntities.xml
+ - classpath://entity/ServiceEntities.xml
+ - classpath://entity/TestEntities.xml
+ - classpath://data/CommonL10nData.xml
+ - classpath://data/CurrencyData.xml
+ - classpath://data/EntityTypeData.xml
+ - classpath://data/GeoCountryData.xml
+ - classpath://data/SecurityTypeData.xml
+ - classpath://data/UnitData.xml
+ - classpath://data/MoquiSetupData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/tools/data/ToolsSecurityData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/webroot/data/WebrootL10nData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/webroot/data/WebrootQuasarThemeData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/webroot/data/WebrootSecurityData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/webroot/data/WebrootSecurityDemoData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/webroot/data/WebrootThemeData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/AccountingAccountEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/AccountingLedgerEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/AccountingOtherEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/FacilityEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/HumanResourcesEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/MarketingEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/OrderEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/PartyEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/ProductAssetEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/ProductDefinitionEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/ProductStoreEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/RequestEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/SalesEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/ShipmentEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/WorkEffortEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/AccountConfigData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/CarrierData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoCanData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoChnData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoIndData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoItaData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoJpnData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoKorData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoPrtData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoUsaData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoVnmData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/HolidayUsaData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/ItemTypeData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/MantleDocumentData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/MantleDocumentInventoryData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/MantleDocumentSalesData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/MantleDocumentWorkData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/MantleUdmSetupData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/PartyInstallData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/PayrollData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/SalesData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/ZaaGlAccountsInstallData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/ZapPayrollTaxInstallData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/AccountingAccountViewEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/AccountingLedgerViewEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/AccountingOtherViewEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/FacilityViewEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/HumanResourcesViewEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/OrderViewEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/PartyViewEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/ProductAssetViewEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/ProductDefinitionViewEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/ProductStoreViewEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/RequestViewEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/ShipmentViewEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/WorkEffortViewEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/data/ACHReturnCodes.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/data/MantleSetupData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/data/OrderInstallData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/data/TaxFormData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/data/ZbaOrganizationDemoData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/data/ZcaProductDemoData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/SimpleScreens/data/MyAccountDocumentData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/SimpleScreens/data/SimpleScreensSetupData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/HiveMind/data/HiveMindAaaSetupData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/HiveMind/data/HiveMindAabDocumentData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/HiveMind/data/HiveMindDemoData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/MarbleERP/data/MarbleErpSetupData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopCommerce/data/PopCommerceAaaSetupData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopCommerce/data/PopCommerceAabDocumentData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopCommerce/data/PopCommerceDemoData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopRestStore/data/PopRestStoreAaaSetupData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopRestStore/data/PopRestStoreProductData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/entity/ExampleEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/entity/ExampleViewEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ExampleL10nData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ExampleSecurityData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ExampleTypeData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ExampleZzyDemoData.json
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ExampleZzzDemoData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ZzaExampleRecords.csv
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ZzbExampleService.csv
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ZzcExampleItemRecords.csv
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/entity/Entities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/entity/HuddleEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/00HuddleMountFix.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/00HuddleSecurityData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/00HuddleSetupData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/01HuddleSeedData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/02HuddleFacetData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/03HuddleDemoData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/HuddleVerifyTopicData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-ai/entity/ArtifactEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-ai/data/AiSecurityData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-demo/data/MoquiDemoServerData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-mcp/entity/McpCoreEntities.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-mcp/data/BusinessProcessesData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-mcp/data/McpPromptsData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-mcp/data/McpScreenDocsData.xml
+ - file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-mcp/data/McpSecuritySeedData.xml
+[32m18:41:29.479  INFO         main       o.moqui.i.e.EntityDataLoaderImpl[m Loading data types: ALL
+[32m18:41:29.489  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from classpath://entity/BasicEntities.xml
+[32m18:41:29.605  INFO RequireNewTx             o.moqui.i.e.EntityDataFeed[m Built entity.data.feed.info cache in 110ms, entries for 62 entities
+[32m18:41:29.791  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 125 records from classpath://entity/BasicEntities.xml in 0.302s
+[32m18:41:29.797  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from classpath://entity/EntityEntities.xml
+[32m18:41:29.812  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 18 records from classpath://entity/EntityEntities.xml in 0.015s
+[32m18:41:29.814  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from classpath://entity/OlapEntities.xml
+[32m18:41:29.815  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 0 records from classpath://entity/OlapEntities.xml in 0.001s
+[32m18:41:29.815  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from classpath://entity/ResourceEntities.xml
+[32m18:41:29.818  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 1 records from classpath://entity/ResourceEntities.xml in 0.003s
+[32m18:41:29.819  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from classpath://entity/ScreenEntities.xml
+[32m18:41:29.843  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 46 records from classpath://entity/ScreenEntities.xml in 0.024s
+[32m18:41:29.845  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from classpath://entity/SecurityEntities.xml
+[32m18:41:29.866  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 27 records from classpath://entity/SecurityEntities.xml in 0.021s
+[32m18:41:29.868  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from classpath://entity/ServerEntities.xml
+[32m18:41:29.892  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 28 records from classpath://entity/ServerEntities.xml in 0.024s
+[32m18:41:29.894  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from classpath://entity/ServiceEntities.xml
+[32m18:41:29.943  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 56 records from classpath://entity/ServiceEntities.xml in 0.049s
+[32m18:41:29.944  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from classpath://entity/TestEntities.xml
+[32m18:41:29.945  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 0 records from classpath://entity/TestEntities.xml in 0.001s
+[32m18:41:29.946  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from classpath://data/CommonL10nData.xml
+[32m18:41:29.974  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 56 records from classpath://data/CommonL10nData.xml in 0.028s
+[32m18:41:29.976  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from classpath://data/CurrencyData.xml
+[32m18:41:30.039  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 170 records from classpath://data/CurrencyData.xml in 0.062s
+[32m18:41:30.040  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from classpath://data/EntityTypeData.xml
+[32m18:41:30.047  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 15 records from classpath://data/EntityTypeData.xml in 0.007s
+[32m18:41:30.049  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from classpath://data/GeoCountryData.xml
+[32m18:41:30.127  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 242 records from classpath://data/GeoCountryData.xml in 0.078s
+[32m18:41:30.128  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from classpath://data/SecurityTypeData.xml
+[32m18:41:30.153  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 24 records from classpath://data/SecurityTypeData.xml in 0.025s
+[32m18:41:30.157  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from classpath://data/UnitData.xml
+[32m18:41:30.376  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 392 records from classpath://data/UnitData.xml in 0.219s
+[32m18:41:30.381  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from classpath://data/MoquiSetupData.xml
+[32m18:41:30.411  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 38 records from classpath://data/MoquiSetupData.xml in 0.03s
+[32m18:41:30.413  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/tools/data/ToolsSecurityData.xml
+[32m18:41:30.424  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 9 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/tools/data/ToolsSecurityData.xml in 0.011s
+[32m18:41:30.427  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/webroot/data/WebrootL10nData.xml
+[32m18:41:30.430  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 1 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/webroot/data/WebrootL10nData.xml in 0.003s
+[32m18:41:30.432  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/webroot/data/WebrootQuasarThemeData.xml
+[32m18:41:30.460  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 24 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/webroot/data/WebrootQuasarThemeData.xml in 0.028s
+[32m18:41:30.463  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/webroot/data/WebrootSecurityData.xml
+[32m18:41:30.469  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 7 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/webroot/data/WebrootSecurityData.xml in 0.006s
+[32m18:41:30.471  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/webroot/data/WebrootSecurityDemoData.xml
+[32m18:41:30.489  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 9 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/webroot/data/WebrootSecurityDemoData.xml in 0.018s
+[32m18:41:30.491  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/webroot/data/WebrootThemeData.xml
+[32m18:41:30.500  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 16 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/base-component/webroot/data/WebrootThemeData.xml in 0.009s
+[32m18:41:30.502  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/AccountingAccountEntities.xml
+[32m18:41:30.713  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 378 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/AccountingAccountEntities.xml in 0.211s
+[32m18:41:30.717  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/AccountingLedgerEntities.xml
+[32m18:41:30.783  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 161 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/AccountingLedgerEntities.xml in 0.066s
+[32m18:41:30.785  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/AccountingOtherEntities.xml
+[32m18:41:30.796  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 20 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/AccountingOtherEntities.xml in 0.011s
+[32m18:41:30.798  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/FacilityEntities.xml
+[32m18:41:30.813  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 37 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/FacilityEntities.xml in 0.014s
+[32m18:41:30.815  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/HumanResourcesEntities.xml
+[32m18:41:30.890  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 192 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/HumanResourcesEntities.xml in 0.075s
+[32m18:41:30.892  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/MarketingEntities.xml
+[32m18:41:30.916  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 55 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/MarketingEntities.xml in 0.024s
+[32m18:41:30.918  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/OrderEntities.xml
+[32m18:41:30.979  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 132 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/OrderEntities.xml in 0.06s
+[32m18:41:30.981  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/PartyEntities.xml
+[32m18:41:31.209  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 544 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/PartyEntities.xml in 0.228s
+[32m18:41:31.213  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/ProductAssetEntities.xml
+[32m18:41:31.298  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 201 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/ProductAssetEntities.xml in 0.085s
+[32m18:41:31.302  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/ProductDefinitionEntities.xml
+[32m18:41:31.372  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 200 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/ProductDefinitionEntities.xml in 0.07s
+[32m18:41:31.374  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/ProductStoreEntities.xml
+[32m18:41:31.416  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 114 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/ProductStoreEntities.xml in 0.042s
+[32m18:41:31.418  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/RequestEntities.xml
+[32m18:41:31.445  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 76 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/RequestEntities.xml in 0.027s
+[32m18:41:31.450  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/SalesEntities.xml
+[32m18:41:31.451  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 0 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/SalesEntities.xml in 0.001s
+[32m18:41:31.452  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/ShipmentEntities.xml
+[32m18:41:31.513  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 108 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/ShipmentEntities.xml in 0.061s
+[32m18:41:31.515  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/WorkEffortEntities.xml
+[32m18:41:31.598  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 241 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/entity/WorkEffortEntities.xml in 0.083s
+[32m18:41:31.600  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/AccountConfigData.xml
+[32m18:41:31.604  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 2 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/AccountConfigData.xml in 0.004s
+[32m18:41:31.606  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/CarrierData.xml
+[32m18:41:31.624  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 28 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/CarrierData.xml in 0.018s
+[32m18:41:31.626  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoCanData.xml
+[32m18:41:31.636  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 26 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoCanData.xml in 0.01s
+[32m18:41:31.638  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoChnData.xml
+[32m18:41:31.654  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 68 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoChnData.xml in 0.016s
+[32m18:41:31.656  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoIndData.xml
+[32m18:41:31.672  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 72 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoIndData.xml in 0.016s
+[32m18:41:31.674  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoItaData.xml
+[32m18:41:31.725  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 224 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoItaData.xml in 0.051s
+[32m18:41:31.729  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoJpnData.xml
+[32m18:41:31.769  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 149 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoJpnData.xml in 0.04s
+[32m18:41:31.771  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoKorData.xml
+[32m18:41:31.778  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 34 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoKorData.xml in 0.007s
+[32m18:41:31.780  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoPrtData.xml
+[32m18:41:31.790  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 40 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoPrtData.xml in 0.01s
+[32m18:41:31.792  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoUsaData.xml
+[32m18:41:31.836  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 201 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoUsaData.xml in 0.043s
+[32m18:41:31.838  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoVnmData.xml
+[32m18:41:31.865  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 124 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/GeoVnmData.xml in 0.027s
+[32m18:41:31.867  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/HolidayUsaData.xml
+[32m18:41:32.141  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 94 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/HolidayUsaData.xml in 0.273s
+[32m18:41:32.145  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/ItemTypeData.xml
+[32m18:41:32.194  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 308 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/ItemTypeData.xml in 0.049s
+[32m18:41:32.196  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/MantleDocumentData.xml
+[32m18:41:32.248  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 170 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/MantleDocumentData.xml in 0.051s
+[32m18:41:32.249  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/MantleDocumentInventoryData.xml
+[32m18:41:32.270  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 78 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/MantleDocumentInventoryData.xml in 0.021s
+[32m18:41:32.271  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/MantleDocumentSalesData.xml
+[32m18:41:32.312  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 172 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/MantleDocumentSalesData.xml in 0.041s
+[32m18:41:32.313  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/MantleDocumentWorkData.xml
+[32m18:41:32.343  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 113 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/MantleDocumentWorkData.xml in 0.03s
+[32m18:41:32.344  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/MantleUdmSetupData.xml
+[32m18:41:32.356  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 36 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/MantleUdmSetupData.xml in 0.012s
+[32m18:41:32.358  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/PartyInstallData.xml
+[32m18:41:32.364  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 14 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/PartyInstallData.xml in 0.005s
+[32m18:41:32.365  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/PayrollData.xml
+[32m18:41:32.379  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 54 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/PayrollData.xml in 0.014s
+[32m18:41:32.381  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/SalesData.xml
+[32m18:41:32.398  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 21 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/SalesData.xml in 0.017s
+[32m18:41:32.400  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/ZaaGlAccountsInstallData.xml
+[32m18:41:33.504  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 1130 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/ZaaGlAccountsInstallData.xml in 1.104s
+[32m18:41:33.506  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/ZapPayrollTaxInstallData.xml
+[32m18:41:33.656  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 227 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-udm/data/ZapPayrollTaxInstallData.xml in 0.15s
+[32m18:41:33.658  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/AccountingAccountViewEntities.xml
+[32m18:41:33.661  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 0 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/AccountingAccountViewEntities.xml in 0.002s
+[32m18:41:33.661  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/AccountingLedgerViewEntities.xml
+[32m18:41:33.663  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 0 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/AccountingLedgerViewEntities.xml in 0.001s
+[32m18:41:33.666  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/AccountingOtherViewEntities.xml
+[32m18:41:33.667  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 0 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/AccountingOtherViewEntities.xml in 0.001s
+[32m18:41:33.667  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/FacilityViewEntities.xml
+[32m18:41:33.668  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 0 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/FacilityViewEntities.xml in 0.001s
+[32m18:41:33.669  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/HumanResourcesViewEntities.xml
+[32m18:41:33.669  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 0 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/HumanResourcesViewEntities.xml in 0s
+[32m18:41:33.670  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/OrderViewEntities.xml
+[32m18:41:33.671  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 0 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/OrderViewEntities.xml in 0.001s
+[32m18:41:33.671  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/PartyViewEntities.xml
+[32m18:41:33.672  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 0 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/PartyViewEntities.xml in 0.001s
+[32m18:41:33.673  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/ProductAssetViewEntities.xml
+[32m18:41:33.677  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 0 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/ProductAssetViewEntities.xml in 0.003s
+[32m18:41:33.678  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/ProductDefinitionViewEntities.xml
+[32m18:41:33.679  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 0 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/ProductDefinitionViewEntities.xml in 0.001s
+[32m18:41:33.679  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/ProductStoreViewEntities.xml
+[32m18:41:33.680  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 0 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/ProductStoreViewEntities.xml in 0.001s
+[32m18:41:33.681  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/RequestViewEntities.xml
+[32m18:41:33.681  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 0 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/RequestViewEntities.xml in 0s
+[32m18:41:33.682  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/ShipmentViewEntities.xml
+[32m18:41:33.682  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 0 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/ShipmentViewEntities.xml in 0s
+[32m18:41:33.683  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/WorkEffortViewEntities.xml
+[32m18:41:33.684  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 0 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/entity/WorkEffortViewEntities.xml in 0.001s
+[32m18:41:33.684  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/data/ACHReturnCodes.xml
+[32m18:41:33.711  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 91 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/data/ACHReturnCodes.xml in 0.027s
+[32m18:41:33.712  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/data/MantleSetupData.xml
+[32m18:41:33.758  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 85 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/data/MantleSetupData.xml in 0.046s
+[32m18:41:33.760  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/data/OrderInstallData.xml
+[32m18:41:33.772  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 24 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/data/OrderInstallData.xml in 0.012s
+[32m18:41:33.774  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/data/TaxFormData.xml
+[32m18:41:33.818  INFO oquiWorker-2          o.moqui.i.c.MessageFacadeImpl[m [danger] No Elastic Client found for cluster name default, not indexing documents
+[32m18:41:33.914  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 159 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/data/TaxFormData.xml in 0.14s
+[32m18:41:33.916  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/data/ZbaOrganizationDemoData.xml
+[32m18:41:34.275  INFO RequireNewTx          o.moqui.i.c.MessageFacadeImpl[m [info] Party [ORG_ZIZI_CORP] already has a PartyAcctgPreference record, so not initializing accounting configuration.
+[32m18:41:34.276  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Called service mantle.ledger.LedgerServices.init#PartyAccountingConfiguration in data load, results: [:]
+[32m18:41:34.344  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 207 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/data/ZbaOrganizationDemoData.xml in 0.428s
+[32m18:41:34.345  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/data/ZcaProductDemoData.xml
+[32m18:41:35.099  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Called service mantle.product.ProductServices.create#VariantProducts in data load, results: [:]
+[32m18:41:35.106  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 242 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/mantle-usl/data/ZcaProductDemoData.xml in 0.761s
+[32m18:41:35.110  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/SimpleScreens/data/MyAccountDocumentData.xml
+[32m18:41:35.115  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 11 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/SimpleScreens/data/MyAccountDocumentData.xml in 0.005s
+[32m18:41:35.116  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/SimpleScreens/data/SimpleScreensSetupData.xml
+[32m18:41:35.127  INFO oquiWorker-3          o.moqui.i.c.MessageFacadeImpl[m [danger] No Elastic Client found for cluster name default, not indexing documents
+[32m18:41:35.176  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 194 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/SimpleScreens/data/SimpleScreensSetupData.xml in 0.06s
+[32m18:41:35.178  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/HiveMind/data/HiveMindAaaSetupData.xml
+[32m18:41:35.189  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 40 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/HiveMind/data/HiveMindAaaSetupData.xml in 0.01s
+[32m18:41:35.190  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/HiveMind/data/HiveMindAabDocumentData.xml
+[32m18:41:35.195  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 11 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/HiveMind/data/HiveMindAabDocumentData.xml in 0.005s
+[32m18:41:35.196  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/HiveMind/data/HiveMindDemoData.xml
+[32m18:41:36.265  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Called service mantle.work.TaskServices.add#TaskTime in data load, results: [timeEntryId:101785]
+[32m18:41:36.318  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Called service mantle.work.TaskServices.add#TaskTime in data load, results: [timeEntryId:101786]
+[32m18:41:36.383  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Called service mantle.work.TaskServices.add#TaskTime in data load, results: [timeEntryId:101787]
+[32m18:41:36.473  INFO RequireNewTx          o.moqui.i.c.MessageFacadeImpl[m [danger] No Elastic Client found for cluster name default, not indexing documents
+[32m18:41:36.473  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Called service org.moqui.search.SearchServices.index#DataFeedDocuments in data load, results: [documentsIndexed:0]
+[32m18:41:36.473  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 112 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/HiveMind/data/HiveMindDemoData.xml in 1.277s
+[32m18:41:36.476  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/MarbleERP/data/MarbleErpSetupData.xml
+[32m18:41:36.486  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 26 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/MarbleERP/data/MarbleErpSetupData.xml in 0.009s
+[32m18:41:36.487  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopCommerce/data/PopCommerceAaaSetupData.xml
+[32m18:41:36.568  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 221 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopCommerce/data/PopCommerceAaaSetupData.xml in 0.081s
+[32m18:41:36.570  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopCommerce/data/PopCommerceAabDocumentData.xml
+[32m18:41:36.627  INFO RequireNewTx           o.moqui.i.c.LoggerFacadeImpl[m Not cloning DataDocument with ID [MantleProduct] to new ID [PopcProduct], already exists
+[32m18:41:36.627  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Called service org.moqui.impl.EntityServices.clone#DataDocument in data load, results: [:]
+[32m18:41:36.630  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 11 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopCommerce/data/PopCommerceAabDocumentData.xml in 0.06s
+[32m18:41:36.631  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopCommerce/data/PopCommerceDemoData.xml
+[32m18:41:36.694  INFO RequireNewTx          o.moqui.i.c.MessageFacadeImpl[m [danger] No Elastic Client found for cluster name default, not indexing documents
+[32m18:41:36.694  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Called service org.moqui.search.SearchServices.index#DataFeedDocuments in data load, results: [documentsIndexed:0]
+[32m18:41:36.695  INFO RequireNewTx          o.moqui.i.c.MessageFacadeImpl[m [danger] No Elastic Client found for cluster name default, not indexing documents
+[32m18:41:36.695  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Called service org.moqui.search.SearchServices.index#DataFeedDocuments in data load, results: [documentsIndexed:0]
+[32m18:41:36.695  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 89 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopCommerce/data/PopCommerceDemoData.xml in 0.064s
+[32m18:41:36.697  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopRestStore/data/PopRestStoreAaaSetupData.xml
+[32m18:41:36.706  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 29 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopRestStore/data/PopRestStoreAaaSetupData.xml in 0.009s
+[32m18:41:36.708  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopRestStore/data/PopRestStoreProductData.xml
+[32m18:41:36.745  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Called service mantle.product.ProductServices.create#VariantProducts in data load, results: [:]
+[32m18:41:36.798  INFO oquiWorker-4          o.moqui.i.c.MessageFacadeImpl[m [danger] No Elastic Client found for cluster name default, not indexing documents
+[32m18:41:36.800  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Called service mantle.product.ProductServices.create#VariantProducts in data load, results: [:]
+[32m18:41:36.932  INFO RequireNewTx          o.moqui.i.c.MessageFacadeImpl[m [danger] No Elastic Client found for cluster name default, not indexing documents
+[32m18:41:36.933  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Called service org.moqui.search.SearchServices.index#DataFeedDocuments in data load, results: [documentsIndexed:0]
+[32m18:41:36.933  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 145 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/PopRestStore/data/PopRestStoreProductData.xml in 0.225s
+[32m18:41:36.938  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/entity/ExampleEntities.xml
+[32m18:41:36.960  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 36 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/entity/ExampleEntities.xml in 0.022s
+[32m18:41:36.962  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/entity/ExampleViewEntities.xml
+[32m18:41:36.963  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 0 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/entity/ExampleViewEntities.xml in 0.001s
+[32m18:41:36.964  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ExampleL10nData.xml
+[32m18:41:36.968  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 9 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ExampleL10nData.xml in 0.004s
+[32m18:41:36.969  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ExampleSecurityData.xml
+[32m18:41:36.975  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 6 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ExampleSecurityData.xml in 0.005s
+[32m18:41:36.976  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ExampleTypeData.xml
+[32m18:41:37.035  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 47 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ExampleTypeData.xml in 0.059s
+[32m18:41:37.037  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ExampleZzyDemoData.json
+[32m18:41:37.061  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 2 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ExampleZzyDemoData.json in 0.024s
+[32m18:41:37.064  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ExampleZzzDemoData.xml
+[32m18:41:37.091  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 31 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ExampleZzzDemoData.xml in 0.027s
+[32m18:41:37.094  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ZzaExampleRecords.csv
+[32m18:41:37.112  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 2 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ZzaExampleRecords.csv in 0.018s
+[32m18:41:37.113  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ZzbExampleService.csv
+[32m18:41:37.120  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Called service moqui.example.ExampleServices.create#Example in data load, results: [exampleId:101787]
+[32m18:41:37.120  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 1 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ZzbExampleService.csv in 0.007s
+[32m18:41:37.122  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ZzcExampleItemRecords.csv
+[32m18:41:37.127  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 3 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/example/data/ZzcExampleItemRecords.csv in 0.005s
+[32m18:41:37.129  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/entity/Entities.xml
+[32m18:41:37.130  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 0 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/entity/Entities.xml in 0.001s
+[32m18:41:37.131  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/entity/HuddleEntities.xml
+[32m18:41:37.148  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 33 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/entity/HuddleEntities.xml in 0.017s
+[32m18:41:37.150  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/00HuddleMountFix.xml
+[32m18:41:37.161  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 1 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/00HuddleMountFix.xml in 0.011s
+[32m18:41:37.163  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/00HuddleSecurityData.xml
+[32m18:41:37.169  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 5 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/00HuddleSecurityData.xml in 0.006s
+[32m18:41:37.171  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/00HuddleSetupData.xml
+[32m18:41:37.174  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 1 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/00HuddleSetupData.xml in 0.003s
+[32m18:41:37.176  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/01HuddleSeedData.xml
+[32m18:41:37.190  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 25 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/01HuddleSeedData.xml in 0.014s
+[32m18:41:37.192  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/02HuddleFacetData.xml
+[33m18:41:37.194  WARN RequireNewTx          o.moqui.i.s.ServiceFacadeImpl[m Service sh.FacetType#null not found; used relative location [service/sh.xml]
+[33m18:41:37.199  WARN RequireNewTx      o.moqui.i.c.TransactionFacadeImpl[m Transaction rollback. The rollback was originally caused by: Error loading entity data
+org.xml.sax.SAXException: Found element [sh.FacetType] name, transformed to [sh.FacetType], that is not a valid entity name or service name (file file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/02HuddleFacetData.xml line 3)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$EntityXmlHandler.startElement(EntityDataLoaderImpl.groovy:775)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
+	at java.xml/javax.xml.parsers.SAXParser.parse(SAXParser.java:197)
+	at org.moqui.impl.entity.EntityDataLoaderImpl.loadSingleFile(EntityDataLoaderImpl.groovy:353)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$_internalRun_closure1.doCall(EntityDataLoaderImpl.groovy:317)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$_internalRun_closure1.call(EntityDataLoaderImpl.groovy)
+	at org.moqui.impl.context.TransactionFacadeImpl$_runRequireNew_closure1.doCall(TransactionFacadeImpl.groovy:211)
+	at org.moqui.impl.context.TransactionFacadeImpl$_runRequireNew_closure1.call(TransactionFacadeImpl.groovy)
+	at groovy.lang.Closure.run(Closure.java:543)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[33m18:41:37.199  WARN RequireNewTx      o.moqui.i.c.TransactionFacadeImpl[m Transaction rollback for [Error loading entity data]. Here is the current location: 
+org.moqui.BaseException: Rollback location
+	at org.moqui.impl.context.TransactionFacadeImpl.rollback(TransactionFacadeImpl.groovy:472)
+	at org.moqui.impl.context.TransactionFacadeImpl.rollback(TransactionFacadeImpl.groovy:447)
+	at org.moqui.impl.entity.EntityDataLoaderImpl.loadSingleFile(EntityDataLoaderImpl.groovy:426)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$_internalRun_closure1.doCall(EntityDataLoaderImpl.groovy:317)
+	at org.moqui.impl.context.TransactionFacadeImpl$_runRequireNew_closure1.doCall(TransactionFacadeImpl.groovy:211)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[1;31m18:41:37.200 ERROR RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Skipping to next file after error: org.moqui.BaseException: Error loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/02HuddleFacetData.xml org.xml.sax.SAXException: Found element [sh.FacetType] name, transformed to [sh.FacetType], that is not a valid entity name or service name (file file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/02HuddleFacetData.xml line 3)
+[32m18:41:37.200  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/03HuddleDemoData.xml
+[33m18:41:37.217  WARN RequireNewTx          o.moqui.i.s.ServiceFacadeImpl[m Service huddle.WorkEffortAttribute#null not found; used relative location [service/huddle.xml]
+[33m18:41:37.217  WARN RequireNewTx      o.moqui.i.c.TransactionFacadeImpl[m Transaction rollback. The rollback was originally caused by: Error loading entity data
+org.xml.sax.SAXException: Found element [huddle.WorkEffortAttribute] name, transformed to [huddle.WorkEffortAttribute], that is not a valid entity name or service name (file file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/03HuddleDemoData.xml line 13)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$EntityXmlHandler.startElement(EntityDataLoaderImpl.groovy:775)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
+	at java.xml/javax.xml.parsers.SAXParser.parse(SAXParser.java:197)
+	at org.moqui.impl.entity.EntityDataLoaderImpl.loadSingleFile(EntityDataLoaderImpl.groovy:353)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$_internalRun_closure1.doCall(EntityDataLoaderImpl.groovy:317)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$_internalRun_closure1.call(EntityDataLoaderImpl.groovy)
+	at org.moqui.impl.context.TransactionFacadeImpl$_runRequireNew_closure1.doCall(TransactionFacadeImpl.groovy:211)
+	at org.moqui.impl.context.TransactionFacadeImpl$_runRequireNew_closure1.call(TransactionFacadeImpl.groovy)
+	at groovy.lang.Closure.run(Closure.java:543)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[33m18:41:37.217  WARN RequireNewTx      o.moqui.i.c.TransactionFacadeImpl[m Transaction rollback for [Error loading entity data]. Here is the current location: 
+org.moqui.BaseException: Rollback location
+	at org.moqui.impl.context.TransactionFacadeImpl.rollback(TransactionFacadeImpl.groovy:472)
+	at org.moqui.impl.context.TransactionFacadeImpl.rollback(TransactionFacadeImpl.groovy:447)
+	at org.moqui.impl.entity.EntityDataLoaderImpl.loadSingleFile(EntityDataLoaderImpl.groovy:426)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$_internalRun_closure1.doCall(EntityDataLoaderImpl.groovy:317)
+	at org.moqui.impl.context.TransactionFacadeImpl$_runRequireNew_closure1.doCall(TransactionFacadeImpl.groovy:211)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[1;31m18:41:37.220 ERROR RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Skipping to next file after error: org.moqui.BaseException: Error loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/03HuddleDemoData.xml org.xml.sax.SAXException: Found element [huddle.WorkEffortAttribute] name, transformed to [huddle.WorkEffortAttribute], that is not a valid entity name or service name (file file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/03HuddleDemoData.xml line 13)
+[32m18:41:37.221  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/HuddleVerifyTopicData.xml
+[33m18:41:37.262  WARN RequireNewTx            o.moqui.i.e.EntityValueImpl[m Error creating [huddle.AgendaTopic: [agendaTopicId:TOPIC_ROOT_01, null:null, orgId:ORG_ZIZI_CORP, null:null, statusId:ShInclActive, null:null, null:null, null:null, null:null, null:null, meetingInstanceId:HUDDLE_INST_01, instanceCount:0, null:null, null:null, null:null, workEffortName:Safety First, lastUpdatedStamp:2026-02-11 18:41:37.221]] tx a Bitronix Transaction with GTRID [3132372E302E312E310000019C4F82C944000000E6], status=ACTIVE, 1 resource(s) enlisted (started Wed Feb 11 18:41:37 MST 2026) con Group: transactional, Con: a ConnectionJavaProxy of a JdbcPooledConnection from datasource transactional_DS in state ACCESSIBLE with usage count 1 wrapping org.postgresql.xa.PGXAConnection@38d80d65 on Pooled connection wrapping physical connection org.postgresql.jdbc.PgConnection@4ff4af65: org.postgresql.util.PSQLException: ERROR: insert or update on table "agenda_topic" violates foreign key constraint "agendatopictopicmeetinginstancemeetinginstance"
+  Detail: Key (meeting_instance_id)=(HUDDLE_INST_01) is not present in table "meeting_instance".
+[33m18:41:37.276  WARN RequireNewTx      o.moqui.i.c.TransactionFacadeImpl[m Transaction rollback. The rollback was originally caused by: Error loading entity data
+org.xml.sax.SAXException: Error storing entity [huddle.AgendaTopic] value (file file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/HuddleVerifyTopicData.xml line 7): Error creating AgendaTopic [agendaTopicId:TOPIC_ROOT_01]: tried to delete record that other records refer to or record specified does not exist [23503]
+	at org.moqui.impl.entity.EntityDataLoaderImpl$EntityXmlHandler.endElement(EntityDataLoaderImpl.groovy:870)
+	at org.apache.xerces.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
+	at java.xml/javax.xml.parsers.SAXParser.parse(SAXParser.java:197)
+	at org.moqui.impl.entity.EntityDataLoaderImpl.loadSingleFile(EntityDataLoaderImpl.groovy:353)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$_internalRun_closure1.doCall(EntityDataLoaderImpl.groovy:317)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$_internalRun_closure1.call(EntityDataLoaderImpl.groovy)
+	at org.moqui.impl.context.TransactionFacadeImpl$_runRequireNew_closure1.doCall(TransactionFacadeImpl.groovy:211)
+	at org.moqui.impl.context.TransactionFacadeImpl$_runRequireNew_closure1.call(TransactionFacadeImpl.groovy)
+	at groovy.lang.Closure.run(Closure.java:543)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.moqui.impl.entity.EntitySqlException: Error creating AgendaTopic [agendaTopicId:TOPIC_ROOT_01]: tried to delete record that other records refer to or record specified does not exist [23503]
+	at org.moqui.impl.entity.EntityValueBase.create(EntityValueBase.java:1543)
+	at org.moqui.impl.service.runner.EntityAutoServiceRunner.storeRecursive(EntityAutoServiceRunner.groovy:349)
+	at org.moqui.impl.service.runner.EntityAutoServiceRunner.storeEntity(EntityAutoServiceRunner.groovy:311)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$LoadValueHandler.handlePlainMap(EntityDataLoaderImpl.groovy:583)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$EntityXmlHandler.endElement(EntityDataLoaderImpl.groovy:866)
+	at org.apache.xerces.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
+	at java.xml/javax.xml.parsers.SAXParser.parse(SAXParser.java:197)
+	at org.moqui.impl.entity.EntityDataLoaderImpl.loadSingleFile(EntityDataLoaderImpl.groovy:353)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$_internalRun_closure1.doCall(EntityDataLoaderImpl.groovy:317)
+	at org.moqui.impl.context.TransactionFacadeImpl$_runRequireNew_closure1.doCall(TransactionFacadeImpl.groovy:211)
+	... 1 more
+Caused by: org.postgresql.util.PSQLException: ERROR: insert or update on table "agenda_topic" violates foreign key constraint "agendatopictopicmeetinginstancemeetinginstance"
+  Detail: Key (meeting_instance_id)=(HUDDLE_INST_01) is not present in table "meeting_instance".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:155)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.postgresql.ds.PGPooledConnection$StatementHandler.invoke(PGPooledConnection.java:447)
+	at jdk.proxy3/jdk.proxy3.$Proxy29.executeUpdate(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at bitronix.tm.resource.jdbc.proxy.JavaProxyBase.invoke(JavaProxyBase.java:57)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.executeUpdate(Unknown Source)
+	at org.moqui.impl.entity.EntityQueryBuilder.run(EntityQueryBuilder.java:113)
+	at org.moqui.impl.entity.EntityQueryBuilder.executeUpdate(EntityQueryBuilder.java:174)
+	at org.moqui.impl.entity.EntityValueImpl.createExtended(EntityValueImpl.java:96)
+	at org.moqui.impl.entity.EntityValueBase.basicCreate(EntityValueBase.java:1571)
+	at org.moqui.impl.entity.EntityValueBase.create(EntityValueBase.java:1532)
+	at org.moqui.impl.service.runner.EntityAutoServiceRunner.storeRecursive(EntityAutoServiceRunner.groovy:349)
+	at org.moqui.impl.service.runner.EntityAutoServiceRunner.storeEntity(EntityAutoServiceRunner.groovy:311)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$LoadValueHandler.handlePlainMap(EntityDataLoaderImpl.groovy:583)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$EntityXmlHandler.endElement(EntityDataLoaderImpl.groovy:866)
+	at org.apache.xerces.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
+	at java.xml/javax.xml.parsers.SAXParser.parse(SAXParser.java:197)
+	at org.moqui.impl.entity.EntityDataLoaderImpl.loadSingleFile(EntityDataLoaderImpl.groovy:353)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$_internalRun_closure1.doCall(EntityDataLoaderImpl.groovy:317)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$_internalRun_closure1.call(EntityDataLoaderImpl.groovy)
+	at org.moqui.impl.context.TransactionFacadeImpl$_runRequireNew_closure1.doCall(TransactionFacadeImpl.groovy:211)
+	at org.moqui.impl.context.TransactionFacadeImpl$_runRequireNew_closure1.call(TransactionFacadeImpl.groovy)
+	at groovy.lang.Closure.run(Closure.java:543)
+	... 1 more
+[33m18:41:37.276  WARN RequireNewTx      o.moqui.i.c.TransactionFacadeImpl[m Transaction rollback for [Error loading entity data]. Here is the current location: 
+org.moqui.BaseException: Rollback location
+	at org.moqui.impl.context.TransactionFacadeImpl.rollback(TransactionFacadeImpl.groovy:472)
+	at org.moqui.impl.context.TransactionFacadeImpl.rollback(TransactionFacadeImpl.groovy:447)
+	at org.moqui.impl.entity.EntityDataLoaderImpl.loadSingleFile(EntityDataLoaderImpl.groovy:426)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$_internalRun_closure1.doCall(EntityDataLoaderImpl.groovy:317)
+	at org.moqui.impl.context.TransactionFacadeImpl$_runRequireNew_closure1.doCall(TransactionFacadeImpl.groovy:211)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[1;31m18:41:37.277 ERROR RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Skipping to next file after error: org.moqui.BaseException: Error loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/HuddleVerifyTopicData.xml org.xml.sax.SAXException: Error storing entity [huddle.AgendaTopic] value (file file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/huddle/data/HuddleVerifyTopicData.xml line 7): Error creating AgendaTopic [agendaTopicId:TOPIC_ROOT_01]: tried to delete record that other records refer to or record specified does not exist [23503]
+Error creating AgendaTopic [agendaTopicId:TOPIC_ROOT_01]: tried to delete record that other records refer to or record specified does not exist [23503]
+[32m18:41:37.277  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-ai/entity/ArtifactEntities.xml
+[33m18:41:37.278  WARN RequireNewTx      o.moqui.i.c.TransactionFacadeImpl[m Transaction rollback. The rollback was originally caused by: Error loading entity data
+org.xml.sax.SAXException: Found element [entities] name, transformed to [entities], that is not a valid entity name or service name (file file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-ai/entity/ArtifactEntities.xml line 3)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$EntityXmlHandler.startElement(EntityDataLoaderImpl.groovy:775)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.impl.dtd.XMLDTDValidator.startElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentScannerImpl$ContentDispatcher.scanRootElementHook(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
+	at java.xml/javax.xml.parsers.SAXParser.parse(SAXParser.java:197)
+	at org.moqui.impl.entity.EntityDataLoaderImpl.loadSingleFile(EntityDataLoaderImpl.groovy:353)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$_internalRun_closure1.doCall(EntityDataLoaderImpl.groovy:317)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$_internalRun_closure1.call(EntityDataLoaderImpl.groovy)
+	at org.moqui.impl.context.TransactionFacadeImpl$_runRequireNew_closure1.doCall(TransactionFacadeImpl.groovy:211)
+	at org.moqui.impl.context.TransactionFacadeImpl$_runRequireNew_closure1.call(TransactionFacadeImpl.groovy)
+	at groovy.lang.Closure.run(Closure.java:543)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[33m18:41:37.278  WARN RequireNewTx      o.moqui.i.c.TransactionFacadeImpl[m Transaction rollback for [Error loading entity data]. Here is the current location: 
+org.moqui.BaseException: Rollback location
+	at org.moqui.impl.context.TransactionFacadeImpl.rollback(TransactionFacadeImpl.groovy:472)
+	at org.moqui.impl.context.TransactionFacadeImpl.rollback(TransactionFacadeImpl.groovy:447)
+	at org.moqui.impl.entity.EntityDataLoaderImpl.loadSingleFile(EntityDataLoaderImpl.groovy:426)
+	at org.moqui.impl.entity.EntityDataLoaderImpl$_internalRun_closure1.doCall(EntityDataLoaderImpl.groovy:317)
+	at org.moqui.impl.context.TransactionFacadeImpl$_runRequireNew_closure1.doCall(TransactionFacadeImpl.groovy:211)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[1;31m18:41:37.279 ERROR RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Skipping to next file after error: org.moqui.BaseException: Error loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-ai/entity/ArtifactEntities.xml org.xml.sax.SAXException: Found element [entities] name, transformed to [entities], that is not a valid entity name or service name (file file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-ai/entity/ArtifactEntities.xml line 3)
+[32m18:41:37.279  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-ai/data/AiSecurityData.xml
+[32m18:41:37.284  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 6 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-ai/data/AiSecurityData.xml in 0.005s
+[32m18:41:37.286  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-demo/data/MoquiDemoServerData.xml
+[32m18:41:37.292  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 4 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-demo/data/MoquiDemoServerData.xml in 0.005s
+[32m18:41:37.293  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-mcp/entity/McpCoreEntities.xml
+[32m18:41:37.294  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 0 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-mcp/entity/McpCoreEntities.xml in 0.001s
+[32m18:41:37.295  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-mcp/data/BusinessProcessesData.xml
+[32m18:41:37.303  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 9 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-mcp/data/BusinessProcessesData.xml in 0.007s
+[32m18:41:37.304  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-mcp/data/McpPromptsData.xml
+[32m18:41:37.311  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 9 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-mcp/data/McpPromptsData.xml in 0.007s
+[32m18:41:37.312  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-mcp/data/McpScreenDocsData.xml
+[32m18:41:37.345  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 68 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-mcp/data/McpScreenDocsData.xml in 0.033s
+[32m18:41:37.347  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loading entity data from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-mcp/data/McpSecuritySeedData.xml
+[32m18:41:37.366  INFO RequireNewTx       o.moqui.i.e.EntityDataLoaderImpl[m Loaded 23 records from file:/home/byersa/IdeaProjects/huddle-ai-project/runtime/component/moqui-mcp/data/McpSecuritySeedData.xml in 0.019s
+[32m18:41:37.369  INFO         main                          o.moqui.Moqui[m Loaded [9169] records in 7 seconds.
+[32m18:41:37.997  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m ArtifactHitBins stored
+[32m18:41:37.997  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Shutting scheduled executor
+[32m18:41:37.998  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Shutting down worker pool
+[32m18:41:37.998  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Scheduled executor shut down and terminated
+[32m18:41:37.998  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Worker pool shut down and terminated
+[32m18:41:37.998  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Destroying ToolFactory: FOP
+[32m18:41:37.998  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Destroying ToolFactory: H2Server
+[32m18:41:37.998  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Destroying ToolFactory: MCache
+[32m18:41:37.999  INFO         main .moqui.i.c.TransactionInternalBitronix[m Shutting down Bitronix
+Facades destroyed
+[32m18:41:38.255  INFO         main .moqui.i.c.ExecutionContextFactoryImpl[m Facades destroyed
+Moqui ExecutionContextFactory Destroyed

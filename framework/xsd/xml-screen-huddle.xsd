@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <!-- Include the base Moqui Screen Schema -->
+    <xs:include schemaLocation="xml-screen-3.xsd"/>
+
+    <!-- Define screen-layout -->
+    <xs:element name="screen-layout" substitutionGroup="AllWidgets">
+        <xs:complexType>
+            <xs:group ref="widget-elements" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:attribute name="id" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Define screen-header -->
+    <xs:element name="screen-header" substitutionGroup="AllWidgets">
+        <xs:complexType>
+            <xs:group ref="widget-elements" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:attribute name="id" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Define screen-page -->
+    <xs:element name="screen-page" substitutionGroup="AllWidgets">
+        <xs:complexType>
+            <xs:group ref="widget-elements" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:attribute name="id" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Define screen-footer -->
+    <xs:element name="screen-footer" substitutionGroup="AllWidgets">
+        <xs:complexType>
+            <xs:group ref="widget-elements" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:attribute name="id" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
