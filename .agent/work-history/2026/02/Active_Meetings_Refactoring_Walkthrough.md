@@ -23,6 +23,7 @@ We introduced a high-level abstraction for iterating over lists in XML without u
 ### 2. Enhanced DeterministicVueRenderer
 The Blueprint renderer was upgraded to handle Moqui's native structural tags more effectively:
 *   **Transparent Sections**: The renderer now manually evaluates `<condition>` tags within a `<section>`. It then "walks" either the `<widgets>` or `<fail-widgets>` block, completely flattening the output JSON so the client only receives the final UI widgets.
+*   **Layout Abstractions**: Added native support for `<container-row>`, `<row-col>`, `<dynamic-dialog>`, and `<link>`. These are now mapped to standardized `m-` prefixed Vue components in the Blueprint JSON.
 *   **Strict XML Compliance**: Updated the renderer and XML screens to handle strict SAX parsing requirements (e.g., ensuring all Vue directives like `v-else` and `v-slot` have assigned values like `=""`).
 
 ### 3. Abstract-to-Instance Workflow
