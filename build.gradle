@@ -1351,4 +1351,19 @@ tasks.withType(JavaExec).configureEach {
     // Required for Bitronix/JDBC Proxying on modern JVMs
     jvmArgs("--add-opens", "java.base/java.lang=ALL-UNNAMED")
     jvmArgs("--add-opens", "java.base/java.util=ALL-UNNAMED")
+
+    def envProps = [:]
+    def envFile = file('.env')
+    if (envFile.exists()) {
+        envFile.readLines().each { String line ->
+            line = line.trim()
+            if (line && !line.startsWith('#')) {
+                def parts = line.split('=', 2)
+                if (parts.length == 2) envProps[parts[0].trim().toLowerCase()] = parts[1].trim()
+            }
+        }
+    }
+    if (envProps) {
+        systemProperties(envProps)
+    }
 }
